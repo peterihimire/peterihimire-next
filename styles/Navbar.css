@@ -1,0 +1,11 @@
+.nav-item a {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 1rem 0 0;
+}
+.nav-link {
+  list-style: none;
+  font-weight: bolder;
+  color: rebeccapurple;
+  display: flex;
+}
