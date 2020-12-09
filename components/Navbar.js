@@ -30,7 +30,7 @@ class Navbar extends Component {
                 className="sidenav-trigger right"
                 data-target="mobile-nav"
               >
-                <i class="material-icons black-text">menu</i>
+                <i className="material-icons black-text">menu</i>
                 {/* <img src={menuIcon} alt="menu" className="menu-icon-img" /> */}
               </a>
 
