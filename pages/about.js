@@ -1,10 +1,14 @@
 import React from "react";
-import Navbar from '../components/Navbar';
+import Navbar from "../components/Navbar";
 const about = () => {
   return (
     <>
       <Navbar />
-      <h2>This is the about page</h2>
+      <section>
+        <div className="container">
+          <h2>This is the about page</h2>
+        </div>
+      </section>
     </>
   );
 };
