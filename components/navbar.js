@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Link from "next/link";
-// import menuIcon from "../public/menuicon.svg";
+import { Spin as Hamburger } from "hamburger-react";
 // import M from "materialize-css/dist/js/materialize.min.js";
 
 if (typeof window !== "undefined") {
@@ -30,8 +30,13 @@ class Navbar extends Component {
                 className="sidenav-trigger right"
                 data-target="mobile-nav"
               >
-                <i className="material-icons black-text">menu</i>
-                {/* <img src={menuIcon} alt="menu" className="menu-icon-img" /> */}
+                {/* <i className="material-icons black-text">menu</i> */}
+                <img
+                  src="/menuicon.svg"
+                  alt="menu"
+                  className="  menu-icon-img"
+                />
+                {/* <Hamburger /> */}
               </a>
 
               <ul className=" hide-on-med-and-down nav-links">
