@@ -10,3 +10,27 @@
   display: flex;
 }
 
+nav.trans-nav {
+  position: fixed;
+  /* background-color: transparent; */
+  /* background-color: rgb(255, 255, 255); */
+  z-index: 10;
+  height: 64px;
+  box-shadow: none;
+}
+nav .sidenav-trigger {
+  float: left;
+  position: relative;
+  z-index: 1;
+  height: 56px;
+  margin: 0 0px 0 18px !important;
+}
+
+.logo-img {
+  /* width: 100%; */
+  margin-top: .8rem;
+  height: 40px !important;
+}
+/* .sidenav {
+  background-color: var(--pry-color) !important;
+} */

@@ -10,6 +10,22 @@ if (typeof window !== "undefined") {
 }
 
 class Navbar extends Component {
+  state = {
+    isOpen: false,
+  };
+
+  // mobilenav handler
+  mobileHandler = () => {
+    this.setState({
+      isOpen: !this.state.isOpen,
+    });
+  };
+  closeHandler = () => {
+    this.setState({
+      isOpen: false,
+    });
+  };
+
   componentDidMount() {
     // sidenav
     const sideNav = document.querySelector(".sidenav");
@@ -19,16 +35,20 @@ class Navbar extends Component {
     return (
       <>
         <div className="navbar">
-          <nav>
+          <nav className="trans-nav" role="navigation">
             <div className="container">
               <Link href="/" className="brand-logo left">
-                <a>BENKIH</a>
+                <img
+                  src="/peterihimire-logo.svg"
+                  alt="logo image"
+                  className="logo-img"
+                />
               </Link>
 
               <a
                 href="/"
-                className="sidenav-trigger right"
-                data-target="mobile-nav"
+                className=" right"
+                // data-target="mobile-nav"
               >
                 {/* <i className="material-icons black-text">menu</i> */}
                 <img
@@ -58,13 +78,13 @@ class Navbar extends Component {
 
         <ul className="sidenav" id="mobile-nav">
           <li className="nav-item">
-            <Link href="/">
+            <Link className="sidenav-open" href="/">
               <a>home</a>
             </Link>
           </li>
 
           <li className="nav-item">
-            <Link href="/about">
+            <Link className="sidenav-open" href="/about">
               <a>about</a>
             </Link>
           </li>
