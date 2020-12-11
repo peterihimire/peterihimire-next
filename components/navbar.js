@@ -104,7 +104,7 @@ const Navbar = (props) => {
             <Link href="/" className="brand-logo left">
               <a>
                 <img
-                  src="/peterihimire-logo.svg"
+                  src="/peterihimire-logo-alt.svg"
                   alt="logo image"
                   className="logo-img"
                 />
@@ -117,7 +117,11 @@ const Navbar = (props) => {
               // data-target="mobile-nav"
             >
               {/* <i className="material-icons black-text">menu</i> */}
-              <img src="/menuicon.svg" alt="menu" className="  menu-icon-img" />
+              <img
+                src="/menuicon-alt.svg"
+                alt="menu"
+                className="  menu-icon-img"
+              />
               {/* <Hamburger rounded color="#000" label="Show menu" distance="md" /> */}
             </div>
 

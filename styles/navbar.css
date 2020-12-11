@@ -1,7 +1,7 @@
 .nav-item a {
   text-transform: capitalize;
   text-decoration: none;
-  color: var(--mainBlack) !important;
+  color: var(--mainWhite) !important;
  
 }
 .nav-links {
