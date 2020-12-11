@@ -1,22 +1,21 @@
 .nav-item a {
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-decoration: none;
-  padding: 0 1rem 0 0;
+  color: var(--mainBlack) !important;
+ 
 }
-.nav-link {
+.nav-links {
   list-style: none;
-  font-weight: bolder;
-  color: rebeccapurple;
-  display: flex;
+  font-family: roboto;
 }
 
 nav.trans-nav {
   position: fixed;
-  /* background-color: transparent; */
+  background-color: transparent;
   /* background-color: rgb(255, 255, 255); */
   z-index: 10;
   height: 64px;
-  box-shadow: none;
+  /* box-shadow: none; */
 }
 nav .sidenav-trigger {
   float: left;
@@ -28,7 +27,7 @@ nav .sidenav-trigger {
 
 .logo-img {
   /* width: 100%; */
-  margin-top: .8rem;
+  margin-top: 0.8rem;
   height: 40px !important;
 }
 /* .sidenav {

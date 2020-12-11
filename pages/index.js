@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Navbar from "../components/navbar";
+// import Navbar from "../components/navbar";
 import "materialize-css/dist/css/materialize.min.css";
 // import M from "materialize-css/dist/js/materialize.min.js";
 
@@ -14,11 +14,11 @@ export default function Home() {
   return (
     <div className="">
       <Head>
-        <title>Create Next App</title>
+        <title>Home | Peter Ihimire</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
+      {/* <Navbar /> */}
       <main className={styles.main}>
         {/* <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>

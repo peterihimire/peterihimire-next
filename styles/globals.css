@@ -15,8 +15,8 @@ a {
   box-sizing: border-box;
 } */
 :root {
-  --pry-color: #1c394d;
-  --sec-color: #00eab1;
+  --pry-color: #008ed6;
+  --sec-color: #868e96;
   --mainGrey: #f9f9f9;
   --darkGrey: #494949;
   --mainWhite: #fff;
@@ -25,6 +25,7 @@ a {
   --lineHeight: 1.4;
   --mediumFont: 5.5rem;
   --main-shadow: 1px 4px 4px rgba(0, 0, 0, 0.04);
+  --mainTransition: all 0.5s linear;
 }
 
 /* Lato Font */
