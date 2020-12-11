@@ -1,6 +1,5 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-// import Navbar from "../components/navbar";
 import "materialize-css/dist/css/materialize.min.css";
 // import M from "materialize-css/dist/js/materialize.min.js";
 
@@ -18,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* <Navbar /> */}
+    
       <main className={styles.main}>
         {/* <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>

@@ -42,6 +42,13 @@ const Mobilenav = (props) => {
             </Link>
           </li>
         </ul>
+        <div className="mobile-nav-footer">
+          <div className="mobile-nav-footer-text ">
+            <p>
+              &copy; copyright <span> peterihimire</span> 2021
+            </p>
+          </div>
+        </div>
       </div>
     </>
   );
