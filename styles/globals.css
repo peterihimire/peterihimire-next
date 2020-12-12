@@ -15,7 +15,8 @@ a {
   box-sizing: border-box;
 } */
 :root {
-  --pry-color: #008ed6;
+  /* --pry-color: #008ed6; */
+  --pry-color: #317fda;
   --sec-color: #969696;
   /* --sec-color: #868e96; */
   --mainGrey: #f9f9f9;

@@ -4,17 +4,17 @@ import Typewriter from "typewriter-effect";
 
 const Banner = () => {
   return (
-    <section>
+    <header className="banner">
       <div className="row full-height">
         <div className="container full-height">
-          <div className="col s12 pad0">
+          <div className=" col s12 pad0">
             <div className="col s12 m5">
               <div className="main-text-container">
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
                       .typeString(
-                        '<h1>Peter <span style="color:  #008ed6">Ihimire</span></h1>'
+                        '<h1>Peter <span style="color:  #317fda">Ihimire</span></h1>'
                       )
                       .pauseFor(1500)
                       .typeString("<h4>Front-End Web Developer</h4>")
@@ -22,7 +22,7 @@ const Banner = () => {
                   }}
                 />
                 <div className="btn">
-                  <Link href="/portfolio" className="">
+                  <Link href="/portfolio" className="btn">
                     <a>projects</a>
                   </Link>
                 </div>
@@ -40,7 +40,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-    </section>
+    </header>
   );
 };
 

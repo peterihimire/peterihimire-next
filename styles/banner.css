@@ -1,0 +1,10 @@
+.banner {
+  position: relative;
+  /* height: 100vh; */
+  /* min-height: 600px; */
+  padding-top: 0;
+}
+.banner-item {
+  /* padding-top: 15% !important; */
+  /* background-color: red; */
+}
