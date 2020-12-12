@@ -80,7 +80,7 @@
 /* PHONE */
 @media (max-width: 600px) {
   .mobile-nav {
-    width: 70%;
+    width: 80%;
   }
   .mobile-nav-item a {
     padding: 0 0 0 2rem;
