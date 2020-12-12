@@ -2,11 +2,12 @@
   text-transform: capitalize;
   text-decoration: none;
   color: var(--mainWhite) !important;
- 
+  font-size: 1.2rem;
+  font-family: roboto-bold;
+  /* font-family: roboto-condensed-bold; */
 }
 .nav-links {
   list-style: none;
-  font-family: roboto;
 }
 
 nav.trans-nav {

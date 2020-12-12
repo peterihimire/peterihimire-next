@@ -16,11 +16,13 @@ a {
 } */
 :root {
   --pry-color: #008ed6;
-  --sec-color: #868e96;
+  --sec-color: #969696;
+  /* --sec-color: #868e96; */
   --mainGrey: #f9f9f9;
   --darkGrey: #494949;
   --mainWhite: #fff;
-  --mainBlack: #222;
+  --mainBlack: rgb(0, 0, 0);
+  /* --mainBlack: #222; */
   --mainSpacing: 0.2rem;
   --lineHeight: 1.4;
   --mediumFont: 5.5rem;
@@ -48,6 +50,11 @@ a {
   src: local("roboto"),
     url("../fonts/roboto/Roboto-Regular.ttf") format("truetype");
 }
+@font-face {
+  font-family: "roboto-condensed-bold";
+  src: local("roboto"),
+    url("../fonts/roboto/RobotoCondensed-Bold.ttf") format("truetype");
+}
 
 ::-webkit-scrollbar {
   width: 8px;
@@ -65,13 +72,13 @@ a {
 }
 body {
   font-family: lato !important;
-  /* background: var(--mainWhite); */
-  background: linear-gradient(
+  background: var(--mainBlack);
+  /* background: linear-gradient(
     to right,
     rgb(0, 40, 63),
     rgba(0, 0, 0, 0.836)
 
-  );
+  ); */
   overflow-x: hidden;
   color: var(--mainWhite);
   height: auto;
