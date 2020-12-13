@@ -14,7 +14,7 @@ const Banner = () => {
                   onInit={(typewriter) => {
                     typewriter
                       .typeString(
-                        '<h1>Peter <span style="color:  #317fda">Ihimire</span></h1>'
+                        '<h1>Peter <span style="color:  #3187e9">Ihimire</span></h1>'
                       )
                       .pauseFor(1500)
                       .typeString("<h4>Front-End Web Developer</h4>")

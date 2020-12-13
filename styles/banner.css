@@ -8,3 +8,7 @@
   /* padding-top: 15% !important; */
   /* background-color: red; */
 }
+.main-txt-container {
+  position: relative;
+  top: 30px;
+}
