@@ -21,7 +21,7 @@ const Banner = () => {
                       .start();
                   }}
                 />
-                <button className="btn btn-bigger">
+                <button className="btn btn-bigger hidden-xs">
                   <Link href="/portfolio" className=" btn-link-color">
                     <a>projects</a>
                   </Link>
@@ -35,6 +35,11 @@ const Banner = () => {
                   alt="programmer"
                   className="full-width banner-img"
                 />
+                <button className="btn btn-bigger visible-xs btn-xs">
+                  <Link href="/portfolio" className=" btn-link-color">
+                    <a>projects</a>
+                  </Link>
+                </button>
               </div>
             </div>
           </div>

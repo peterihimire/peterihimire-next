@@ -19,13 +19,18 @@
   position: relative;
   top: 60px;
 }
+@media (min-width: 993px) {
+  .main-text-container h1 {
+    font-size: 7rem;
+  }
+}
 @media (max-width: 992px) {
   .main-text-container {
     position: relative;
     top: 70px;
   }
   .main-text-container h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
   .main-img-container {
     position: relative;
