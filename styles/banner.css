@@ -8,7 +8,18 @@
   /* padding-top: 15% !important; */
   /* background-color: red; */
 }
-.main-txt-container {
+.main-text-container {
   position: relative;
-  top: 30px;
+  top: 70px;
+}
+.main-text-container h1 {
+  font-size: 7rem;
+}
+.main-img-container {
+  position: relative;
+  top: 60px;
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 600px) {
 }
