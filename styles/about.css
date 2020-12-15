@@ -1,4 +1,26 @@
-section .about {
-  padding: 0;
+.about {
+  padding: 0px;
   margin: 0;
+}
+.circl {
+  width: 200px;
+  height: 200px;
+  background: url(../public/peter.jpg) center/cover no-repeat;
+  float: left;
+  shape-outside: none;
+  /* border-radius: 5px; */
+  margin: 0 2rem 1rem 0;
+}
+.left-about h1 {
+  text-transform: capitalize;
+}
+.left-about h1 span {
+  color: var(--pry-color);
+}
+.about-img-text p {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  line-height: 1.7rem;
+  /* font-size: 1.2rem; */
 }

@@ -36,11 +36,13 @@ const Banner = () => {
                   className="full-width banner-img"
                 />
               </div>
-              <button className="btn btn-bigger visible-xs ">
-                <Link href="/portfolio" className=" btn-link-color">
-                  <a>projects</a>
-                </Link>
-              </button>
+              <div className="btn-banner-xs  visible-xs ">
+                <button className="btn btn-bigger">
+                  <Link href="/portfolio" className=" btn-link-color">
+                    <a>projects</a>
+                  </Link>
+                </button>
+              </div>
             </div>
           </div>
         </div>
