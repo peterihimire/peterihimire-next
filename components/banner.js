@@ -16,7 +16,7 @@ const Banner = () => {
                       .typeString(
                         '<h1>Peter <span style="color: #3187e9">Ihimire</span></h1>'
                       )
-                      .pauseFor(1500)
+                      .pauseFor(500)
                       .typeString("<h4>Front-End Web Developer</h4>")
                       .start();
                   }}
@@ -35,12 +35,12 @@ const Banner = () => {
                   alt="programmer"
                   className="full-width banner-img"
                 />
-                <button className="btn btn-bigger visible-xs btn-xs">
-                  <Link href="/portfolio" className=" btn-link-color">
-                    <a>projects</a>
-                  </Link>
-                </button>
               </div>
+              <button className="btn btn-bigger visible-xs ">
+                <Link href="/portfolio" className=" btn-link-color">
+                  <a>projects</a>
+                </Link>
+              </button>
             </div>
           </div>
         </div>
