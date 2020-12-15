@@ -9,7 +9,7 @@
   float: left;
   shape-outside: none;
   /* border-radius: 5px; */
-  margin: 0 2rem 1rem 0;
+  margin: .7rem 2rem .6rem 0;
 }
 .left-about h1 {
   text-transform: capitalize;
@@ -23,4 +23,7 @@
   text-align: justify;
   line-height: 1.7rem;
   /* font-size: 1.2rem; */
+}
+.react-progress-bar-percent h2{
+  line-height: 50%;
 }
