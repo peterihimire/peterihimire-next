@@ -21,7 +21,7 @@ const About = () => {
         <div className="container">
           <div className="row">
             <div className="col s12">
-              <div className="col s12 m5">
+              <div className="col s12 m6 l5">
                 <div className="left-about">
                   <h1>
                     about <span>me</span>
@@ -44,143 +44,339 @@ const About = () => {
                       a client tailored service that allows for the easy
                       ownership of vehicles to a wider range of people who might
                       have had a harder time getting these type of payment
-                      facility using traditional financial channels.
+                      facility using traditional financial channels.#3187e9
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="col s12 m6 offset-m1">
-                <div className="right-about">
-                  <ProgressBar
-                    width="500px"
-                    height="10px"
-                    rect
-                    fontColor="gray"
-                    percentage="30"
-                    rectPadding="1px"
-                    rectBorderRadius="2px"
-                    trackPathColor="transparent"
-                    bgColor="#333333"
-                    trackBorderColor="grey"
-                  />
-                  <ProgressBar
-                    width="500px"
-                    height="10px"
-                    rect
-                    fontColor="gray"
-                    percentage="70"
-                    rectPadding="1px"
-                    rectBorderRadius="2px"
-                    trackPathColor="transparent"
-                    bgColor="#333333"
-                    trackBorderColor="grey"
-                  />
-                  <ProgressBar
-                    width="500px"
-                    height="10px"
-                    rect
-                    fontColor="gray"
-                    percentage="50"
-                    rectPadding="1px"
-                    rectBorderRadius="2px"
-                    trackPathColor="transparent"
-                    bgColor="#333333"
-                    trackBorderColor="grey"
-                  />
-                  <ProgressBar
-                    width="500px"
-                    height="10px"
-                    rect
-                    fontColor="gray"
-                    percentage="70"
-                    rectPadding="1px"
-                    rectBorderRadius="2px"
-                    trackPathColor="transparent"
-                    bgColor="#333333"
-                    trackBorderColor="grey"
-                  />
-                  <ProgressBar
-                    width="500px"
-                    height="10px"
-                    rect
-                    fontColor="gray"
-                    percentage="60"
-                    rectPadding="1px"
-                    rectBorderRadius="2px"
-                    trackPathColor="transparent"
-                    bgColor="#333333"
-                    trackBorderColor="grey"
-                  />
-                  <ProgressBar
-                    // width="230"
-                    // trackWidth="13"
-                    // percentage="60"
-                    width="500px"
-                    height="10px"
-                    rect
-                    fontColor="gray"
-                    percentage="85"
-                    rectPadding="1px"
-                    rectBorderRadius="2px"
-                    trackPathColor="transparent"
-                    bgColor="#333333"
-                    trackBorderColor="grey"
-                  />
-                  <ProgressBar
-                    // width="230"
-                    // trackWidth="13"
-                    // percentage="60"
-                    width="500px"
-                    height="10px"
-                    rect
-                    fontColor="gray"
-                    percentage="45"
-                    rectPadding="1px"
-                    rectBorderRadius="2px"
-                    trackPathColor="transparent"
-                    bgColor="#333333"
-                    trackBorderColor="grey"
-                  />
-                  <ProgressBar
-                    // width="230"
-                    // trackWidth="13"
-                    // percentage="60"
-                    width="500px"
-                    height="10px"
-                    rect
-                    fontColor="gray"
-                    percentage="10"
-                    rectPadding="1px"
-                    rectBorderRadius="2px"
-                    trackPathColor="transparent"
-                    bgColor="#333333"
-                    trackBorderColor="grey"
-                  />
-
-                  <ProgressBar
-                    width="500px"
-                    height="10px"
-                    rect
-                    fontColor="gray"
-                    percentage="90"
-                    rectPadding="1px"
-                    rectBorderRadius="2px"
-                    trackPathColor="transparent"
-                    bgColor="red"
-                    trackBorderColor="grey"
-                  />
-                  <ProgressBar
-                    width="500px"
-                    height="10px"
-                    rect
-                    fontColor="gray"
-                    percentage="90"
-                    rectPadding="1px"
-                    rectBorderRadius="2px"
-                    trackPathColor="transparent"
-                    bgColor="red"
-                    trackBorderColor="grey"
-                  />
+              <div className="col s12 m6 offset-m0 l6 offset-l1">
+                <div className="right-about visible-xs">
+                  <div className="progress-div">
+                    <p>html-5 : </p>
+                    <ProgressBar
+                      width="300px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                      defColor={{
+                        fair: "#3187e9",
+                        good: "#3187e9",
+                        excellent: "#3187e9",
+                        poor: "#3187e9",
+                      }}
+                      // defColor={{
+                      //   fair: 'orangered',
+                      //   good: 'yellow',
+                      //   excellent: 'green',
+                      //   poor: 'red',
+                      // }}
+                    />
+                  </div>
+                  <div className="progress-div">
+                    <p>css-3 : </p>
+                    <ProgressBar
+                      width="300px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                    />
+                  </div>
+                  <div className="progress-div">
+                    <p>JavaScript : </p>
+                    <ProgressBar
+                      width="300px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                    />
+                  </div>
+                  <div className="progress-div">
+                    <p>bootstrap : </p>
+                    <ProgressBar
+                      width="300px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                    />
+                  </div>
+                  <div className="progress-div">
+                    <p>react.js : </p>
+                    <ProgressBar
+                      width="300px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                    />
+                  </div>
+                  <div className="progress-div">
+                    <p>next.js : </p>
+                    <ProgressBar
+                      width="300px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                    />
+                  </div>
+                  <div className="progress-div">
+                    <p>node.js : </p>
+                    <ProgressBar
+                      width="300px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                    />
+                  </div>
+                  <div className="progress-div">
+                    <p>express.js : </p>
+                    <ProgressBar
+                      width="300px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                    />
+                  </div>
+                  <div className="progress-div">
+                    <p>mongodb : </p>
+                    <ProgressBar
+                      width="300px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                    />
+                  </div>
+                  <div className="progress-div">
+                    <p>sass : </p>
+                    <ProgressBar
+                      width="300px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                    />
+                  </div>
+                </div>
+                <div className="right-about hidden-xs">
+                  <div className="progress-div">
+                    <p>html-5 : </p>
+                    <ProgressBar
+                      width="480px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                      defColor={{
+                        fair: "#3187e9",
+                        good: "#3187e9",
+                        excellent: "#3187e9",
+                        poor: "#3187e9",
+                      }}
+                      // defColor={{
+                      //   fair: 'orangered',
+                      //   good: 'yellow',
+                      //   excellent: 'green',
+                      //   poor: 'red',
+                      // }}
+                    />
+                  </div>
+                  <div className="progress-div">
+                    <p>css-3 : </p>
+                    <ProgressBar
+                      width="480px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                    />
+                  </div>
+                  <div className="progress-div">
+                    <p>JavaScript : </p>
+                    <ProgressBar
+                      width="480px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                    />
+                  </div>
+                  <div className="progress-div">
+                    <p>bootstrap : </p>
+                    <ProgressBar
+                      width="480px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                    />
+                  </div>
+                  <div className="progress-div">
+                    <p>react.js : </p>
+                    <ProgressBar
+                      width="480px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                    />
+                  </div>
+                  <div className="progress-div">
+                    <p>next.js : </p>
+                    <ProgressBar
+                      width="480px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                    />
+                  </div>
+                  <div className="progress-div">
+                    <p>node.js : </p>
+                    <ProgressBar
+                      width="480px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                    />
+                  </div>
+                  <div className="progress-div">
+                    <p>express.js : </p>
+                    <ProgressBar
+                      width="480px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                    />
+                  </div>
+                  <div className="progress-div">
+                    <p>mongodb : </p>
+                    <ProgressBar
+                      width="480px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                    />
+                  </div>
+                  <div className="progress-div">
+                    <p>sass : </p>
+                    <ProgressBar
+                      width="480px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                    />
+                  </div>
                 </div>
               </div>
             </div>

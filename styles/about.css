@@ -9,13 +9,16 @@
   float: left;
   shape-outside: none;
   /* border-radius: 5px; */
-  margin: .7rem 2rem .6rem 0;
+  margin: 0.7rem 2rem 0.6rem 0;
 }
 .left-about h1 {
   text-transform: capitalize;
 }
 .left-about h1 span {
   color: var(--pry-color);
+}
+.right-about {
+  padding-top: 8rem;
 }
 .about-img-text p {
   margin: 0;
@@ -24,6 +27,17 @@
   line-height: 1.7rem;
   /* font-size: 1.2rem; */
 }
-.react-progress-bar-percent h2{
+.react-progress-bar-percent h2 {
   line-height: 50%;
+}
+.progress-div p{
+  font-family: roboto-bold;
+  font-size: .7rem;
+  padding: 0 1rem 0 0;
+  width: 85px;
+  text-transform: uppercase;
+}
+.progress-div {
+  display: flex;
+  align-items: center;
 }
