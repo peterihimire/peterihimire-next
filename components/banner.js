@@ -31,20 +31,37 @@ const Banner = () => {
                       .start();
                   }}
                 /> */}
+                <div className="typewriter-flex">
+                  <TypeWriterEffect
+                    textStyle={{
+                      fontFamily: "roboto",
+                      color: "white",
+                      fontWeight: 200,
+                    }}
+                    startDelay={1000}
+                    cursorColor="white"
+                    text="Peter  "
+                    typeSpeed={200}
+                    hideCursorAfterText={true}
+                    // scrollArea={myAppRef}
+                  />
+                  <span>
+                    <TypeWriterEffect
+                      textStyle={{
+                        fontFamily: "roboto-bold",
+                        color: "#3187e9",
+                        fontWeight: 500,
+                      }}
+                      startDelay={2500}
+                      cursorColor="white"
+                      text=" Ihimire"
+                      typeSpeed={200}
+                      hideCursorAfterText={true}
+                      // scrollArea={myAppRef}
+                    />
+                  </span>
+                </div>
 
-                <TypeWriterEffect
-                  textStyle={{
-                    fontFamily: "roboto-bold",
-                    color: "white",
-                    fontWeight: 500,
-                  }}
-                  startDelay={1000}
-                  cursorColor="white"
-                  text="Peter Ihimire"
-                  typeSpeed={200}
-                  hideCursorAfterText={true}
-                  // scrollArea={myAppRef}
-                />
                 <TypeWriterEffect
                   textStyle={{
                     fontFamily: "roboto-bold",

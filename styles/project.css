@@ -1,0 +1,20 @@
+.project {
+  border: aquamarine solid 2px;
+  border-radius: 0.2rem;
+}
+.img-container {
+  /* padding: 1rem; */
+  position: relative;
+  overflow: hidden;
+}
+.project-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(60, 90, 80);
+}
+.img-container img {
+  width: 100%;
+  border-radius: 0.2rem;
+  transition: var(--mainTransition);
+}

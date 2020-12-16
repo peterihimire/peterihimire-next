@@ -2,29 +2,28 @@ import React from "react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import "materialize-css/dist/css/materialize.min.css";
+import ProjectList from "../components/projectList";
 
 const Portfolio = () => {
   return (
-    <div className="">
+    <div className="portfolio">
       <Head>
         <title>Portfolio | Peter Ihimire</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h4>this is portfolio page</h4>
+        <div className="container">
+          <div className="portfolio-content">
+            <h1>
+              my <span> portfolio</span>
+            </h1>
+            <div className="portfolio-content">
+              <ProjectList />
+            </div>
+          </div>
+        </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
     </div>
   );
 };

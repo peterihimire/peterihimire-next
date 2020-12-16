@@ -1,0 +1,7 @@
+.portfolio-content h1 {
+  text-transform: capitalize;
+}
+
+.portfolio-content span {
+  color: var(--pry-color);
+}
