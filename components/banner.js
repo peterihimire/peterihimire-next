@@ -7,7 +7,6 @@ const TypeWriterEffect = dynamic(() => import("react-typewriter-effect"), {
   ssr: false,
 });
 
-
 // if (typeof window !== "undefined") {
 //   TypeWriterEffect = require("react-typewriter-effect");
 //   const myRef = document.querySelector(".scrollable-div");
@@ -51,7 +50,7 @@ const Banner = () => {
                     fontFamily: "roboto-bold",
                     color: "white",
                     fontWeight: 500,
-                    fontSize: "2.5em",
+                    fontSize: "2.3em",
                   }}
                   startDelay={5000}
                   cursorColor="white"
@@ -59,11 +58,13 @@ const Banner = () => {
                   multiTextDelay={1000}
                   typeSpeed={100}
                 />
-                <button className="btn btn-bigger hidden-xs">
-                  <Link href="/portfolio" className=" btn-link-color">
-                    <a>projects</a>
-                  </Link>
-                </button>
+                <div className="btn-banner hidden-xs">
+                  <button className="btn btn-bigger ">
+                    <Link href="/portfolio" className=" btn-link-color">
+                      <a>projects</a>
+                    </Link>
+                  </button>
+                </div>
               </div>
             </div>
             <div className="col s12 m5 offset-m0">
