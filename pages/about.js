@@ -65,10 +65,10 @@ const About = () => {
                       bgColor="red"
                       trackBorderColor="grey"
                       defColor={{
-                        fair: "#3187e9",
-                        good: "#3187e9",
-                        excellent: "#3187e9",
-                        poor: "#3187e9",
+                        fair: "orange",
+                        good: "orange",
+                        excellent: "orange",
+                        poor: "orange",
                       }}
                       // defColor={{
                       //   fair: 'orangered',
@@ -91,6 +91,12 @@ const About = () => {
                       trackPathColor="transparent"
                       bgColor="red"
                       trackBorderColor="grey"
+                      defColor={{
+                        fair: "blue",
+                        good: "blue",
+                        excellent: "blue",
+                        poor: "blue",
+                      }}
                     />
                   </div>
                   <div className="progress-div">
@@ -106,6 +112,12 @@ const About = () => {
                       trackPathColor="transparent"
                       bgColor="red"
                       trackBorderColor="grey"
+                      defColor={{
+                        fair: "yellow",
+                        good: "yellow",
+                        excellent: "yellow",
+                        poor: "yellow",
+                      }}
                     />
                   </div>
                   <div className="progress-div">
@@ -121,6 +133,12 @@ const About = () => {
                       trackPathColor="transparent"
                       bgColor="red"
                       trackBorderColor="grey"
+                      defColor={{
+                        fair: "purple",
+                        good: "purple",
+                        excellent: "purple",
+                        poor: "purple",
+                      }}
                     />
                   </div>
                   <div className="progress-div">
@@ -136,6 +154,12 @@ const About = () => {
                       trackPathColor="transparent"
                       bgColor="red"
                       trackBorderColor="grey"
+                      defColor={{
+                        fair: "cyan",
+                        good: "cyan",
+                        excellent: "cyan",
+                        poor: "cyan",
+                      }}
                     />
                   </div>
                   <div className="progress-div">
@@ -148,9 +172,15 @@ const About = () => {
                       percentage="90"
                       rectPadding="1px"
                       rectBorderRadius="2px"
-                      trackPathColor="transparent"
+                      trackPathColor="white"
                       bgColor="red"
                       trackBorderColor="grey"
+                      defColor={{
+                        fair: "black",
+                        good: "black",
+                        excellent: "black",
+                        poor: "black",
+                      }}
                     />
                   </div>
                   <div className="progress-div">
@@ -166,6 +196,12 @@ const About = () => {
                       trackPathColor="transparent"
                       bgColor="red"
                       trackBorderColor="grey"
+                      defColor={{
+                        fair: "limegreen",
+                        good: "limegreen",
+                        excellent: "limegreen",
+                        poor: "limegreen",
+                      }}
                     />
                   </div>
                   <div className="progress-div">
@@ -178,13 +214,19 @@ const About = () => {
                       percentage="90"
                       rectPadding="1px"
                       rectBorderRadius="2px"
-                      trackPathColor="transparent"
+                      trackPathColor="white"
                       bgColor="red"
                       trackBorderColor="grey"
+                      defColor={{
+                        fair: "black",
+                        good: "black",
+                        excellent: "black",
+                        poor: "black",
+                      }}
                     />
                   </div>
                   <div className="progress-div">
-                    <p>mongodb : </p>
+                    <p>git : </p>
                     <ProgressBar
                       width="300px"
                       height="10px"
@@ -196,10 +238,16 @@ const About = () => {
                       trackPathColor="transparent"
                       bgColor="red"
                       trackBorderColor="grey"
+                      defColor={{
+                        fair: "grey",
+                        good: "grey",
+                        excellent: "grey",
+                        poor: "grey",
+                      }}
                     />
                   </div>
                   <div className="progress-div">
-                    <p>sass : </p>
+                    <p>linux : </p>
                     <ProgressBar
                       width="300px"
                       height="10px"
@@ -208,9 +256,15 @@ const About = () => {
                       percentage="90"
                       rectPadding="1px"
                       rectBorderRadius="2px"
-                      trackPathColor="transparent"
+                      trackPathColor="white"
                       bgColor="red"
                       trackBorderColor="grey"
+                      defColor={{
+                        fair: "black",
+                        good: "black",
+                        excellent: "black",
+                        poor: "black",
+                      }}
                     />
                   </div>
                 </div>
@@ -229,17 +283,11 @@ const About = () => {
                       bgColor="red"
                       trackBorderColor="grey"
                       defColor={{
-                        fair: "#3187e9",
-                        good: "#3187e9",
-                        excellent: "#3187e9",
-                        poor: "#3187e9",
+                        fair: "orange",
+                        good: "orange",
+                        excellent: "orange",
+                        poor: "orange",
                       }}
-                      // defColor={{
-                      //   fair: 'orangered',
-                      //   good: 'yellow',
-                      //   excellent: 'green',
-                      //   poor: 'red',
-                      // }}
                     />
                   </div>
                   <div className="progress-div">
@@ -255,21 +303,12 @@ const About = () => {
                       trackPathColor="transparent"
                       bgColor="red"
                       trackBorderColor="grey"
-                    />
-                  </div>
-                  <div className="progress-div">
-                    <p>JavaScript : </p>
-                    <ProgressBar
-                      width="480px"
-                      height="10px"
-                      rect
-                      fontColor="gray"
-                      percentage="90"
-                      rectPadding="1px"
-                      rectBorderRadius="2px"
-                      trackPathColor="transparent"
-                      bgColor="red"
-                      trackBorderColor="grey"
+                      defColor={{
+                        fair: "blue",
+                        good: "blue",
+                        excellent: "blue",
+                        poor: "blue",
+                      }}
                     />
                   </div>
                   <div className="progress-div">
@@ -285,8 +324,36 @@ const About = () => {
                       trackPathColor="transparent"
                       bgColor="red"
                       trackBorderColor="grey"
+                      defColor={{
+                        fair: "purple",
+                        good: "purple",
+                        excellent: "purple",
+                        poor: "purple",
+                      }}
                     />
                   </div>
+                  <div className="progress-div">
+                    <p>JavaScript : </p>
+                    <ProgressBar
+                      width="480px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                      defColor={{
+                        fair: "yellow",
+                        good: "yellow",
+                        excellent: "yellow",
+                        poor: "yellow",
+                      }}
+                    />
+                  </div>
+
                   <div className="progress-div">
                     <p>react.js : </p>
                     <ProgressBar
@@ -300,6 +367,12 @@ const About = () => {
                       trackPathColor="transparent"
                       bgColor="red"
                       trackBorderColor="grey"
+                      defColor={{
+                        fair: "cyan",
+                        good: "cyan",
+                        excellent: "cyan",
+                        poor: "cyan",
+                      }}
                     />
                   </div>
                   <div className="progress-div">
@@ -312,9 +385,15 @@ const About = () => {
                       percentage="90"
                       rectPadding="1px"
                       rectBorderRadius="2px"
-                      trackPathColor="transparent"
+                      trackPathColor="white"
                       bgColor="red"
                       trackBorderColor="grey"
+                      defColor={{
+                        fair: "black",
+                        good: "black",
+                        excellent: "black",
+                        poor: "black",
+                      }}
                     />
                   </div>
                   <div className="progress-div">
@@ -330,6 +409,12 @@ const About = () => {
                       trackPathColor="transparent"
                       bgColor="red"
                       trackBorderColor="grey"
+                      defColor={{
+                        fair: "limegreen",
+                        good: "limegreen",
+                        excellent: "limegreen",
+                        poor: "limegreen",
+                      }}
                     />
                   </div>
                   <div className="progress-div">
@@ -342,13 +427,19 @@ const About = () => {
                       percentage="90"
                       rectPadding="1px"
                       rectBorderRadius="2px"
-                      trackPathColor="transparent"
+                      trackPathColor="white"
                       bgColor="red"
                       trackBorderColor="grey"
+                      defColor={{
+                        fair: "black",
+                        good: "black",
+                        excellent: "black",
+                        poor: "black",
+                      }}
                     />
                   </div>
                   <div className="progress-div">
-                    <p>mongodb : </p>
+                    <p>git : </p>
                     <ProgressBar
                       width="480px"
                       height="10px"
@@ -360,10 +451,16 @@ const About = () => {
                       trackPathColor="transparent"
                       bgColor="red"
                       trackBorderColor="grey"
+                      defColor={{
+                        fair: "grey",
+                        good: "grey",
+                        excellent: "grey",
+                        poor: "grey",
+                      }}
                     />
                   </div>
                   <div className="progress-div">
-                    <p>sass : </p>
+                    <p>linux : </p>
                     <ProgressBar
                       width="480px"
                       height="10px"
@@ -372,9 +469,15 @@ const About = () => {
                       percentage="90"
                       rectPadding="1px"
                       rectBorderRadius="2px"
-                      trackPathColor="transparent"
+                      trackPathColor="white"
                       bgColor="red"
                       trackBorderColor="grey"
+                      defColor={{
+                        fair: "black",
+                        good: "black",
+                        excellent: "black",
+                        poor: "black",
+                      }}
                     />
                   </div>
                 </div>
