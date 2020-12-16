@@ -15,8 +15,8 @@
 } */
 nav.trans-nav {
   position: fixed;
-  background-color: transparent;
-  /* background-color: rgb(255, 255, 255); */
+  /* background-color: transparent; */
+  background-color: rgba(248, 248, 248, 0.13);
   z-index: 10;
   height: 84px;
   /* box-shadow: none; */
