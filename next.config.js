@@ -1,5 +1,5 @@
 // next.config.js
-//npm install@svgr/webpack
+//npm install @svgr/webpack
 
 module.exports = {
   webpack(config) {
