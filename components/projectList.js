@@ -11,7 +11,8 @@ class ProjectList extends Component {
         detail:
           "Our delivery process can take place from minutes to few hours depending on your locationlorem20 Our delivery process can take place from minutes to few hours depending on your location ",
         link: "https://benkih-ecommerce-react.netlify.app",
-        image: "https://cloudinary.com/benkih-ecommerce",
+        // image: "https://cloudinary.com/benkih-ecommerce",
+        image: "/product8.png",
       },
       {
         id: 2,
@@ -19,7 +20,7 @@ class ProjectList extends Component {
         detail:
           "Our delivery process can take place from minutes to few hours depending on your locationlorem20 Our delivery process can take place from minutes to few hours depending on your location ",
         link: "https://benkih-ecommerce-react.netlify.app",
-        image: "https://cloudinary.com/benkih-ecommerce",
+        image: "/product8.png",
       },
       {
         id: 3,
@@ -27,7 +28,7 @@ class ProjectList extends Component {
         detail:
           "Our delivery process can take place from minutes to few hours depending on your locationlorem20 Our delivery process can take place from minutes to few hours depending on your location ",
         link: "https://benkih-ecommerce-react.netlify.app",
-        image: "https://cloudinary.com/benkih-ecommerce",
+        image: "/product8.png",
       },
       {
         id: 4,
@@ -35,7 +36,7 @@ class ProjectList extends Component {
         detail:
           "Our delivery process can take place from minutes to few hours depending on your locationlorem20 Our delivery process can take place from minutes to few hours depending on your location ",
         link: "https://benkih-ecommerce-react.netlify.app",
-        image: "https://cloudinary.com/benkih-ecommerce",
+        image: "/product8.png",
       },
       {
         id: 5,
@@ -43,9 +44,10 @@ class ProjectList extends Component {
         detail:
           "Our delivery process can take place from minutes to few hours depending on your locationlorem20 Our delivery process can take place from minutes to few hours depending on your location ",
         link: "https://benkih-ecommerce-react.netlify.app",
-        image: "https://cloudinary.com/benkih-ecommerce",
+        image: "/product8.png",
       },
     ],
+    navColor: false,
   };
 
   render() {

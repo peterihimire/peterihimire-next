@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import "../styles/globals.css";
 import "../styles/navbar.css";
@@ -26,6 +26,28 @@ function MyApp({ Component, pageProps }) {
       isOpen: false,
     });
   };
+
+  // For Nav Color
+  const [navColor, setNavColor] = useState({
+    color: false,
+  });
+  const colorVisibility = () => {
+    let position = window.pageYOffset;
+    console.log(position);
+    if (position > 50) {
+      console.log("I am at position above 50px");
+      setNavColor({
+        color: true,
+      });
+    } else {
+      setNavColor({
+        color: false,
+      });
+    }
+  };
+  useEffect(() => {
+    colorVisibility();
+  }, [navColor]);
 
   return (
     <>
