@@ -47,7 +47,7 @@ function MyApp({ Component, pageProps }) {
   };
   useEffect(() => {
     colorVisibility();
-  }, [navColor]);
+  }, [Component, pageProps]);
 
   return (
     <>
