@@ -96,6 +96,7 @@ if (typeof window !== "undefined") {
 // }
 
 const Navbar = (props) => {
+  console.log(props);
   return (
     <>
       <div className="navbar">

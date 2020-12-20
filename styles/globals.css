@@ -221,16 +221,18 @@ h4 {
   padding: 0 0rem !important;
   width: 160px;
 }
-/* .btn-xs {
-  padding-top: 30px;
-  top : 40px;
-} */
 .btn-full-width {
   width: 160px;
 }
 navbar-single-link {
   color: red;
 }
+/* Color Navbar */
+.nav-color {
+  /* background-color: var(--mainBlack); */
+  background-color: red;
+}
+
 @media (min-width: 993px) {
   .container {
     width: 80% !important;

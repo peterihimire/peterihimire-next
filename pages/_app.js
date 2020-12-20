@@ -52,7 +52,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <MobileNav closeMenu={closeHandler} openState={menuState.isOpen} />
-      <Navbar openMenu={openHandler} />
+      <Navbar openMenu={openHandler} navColor={colorVisibility} />
       <Component {...pageProps} />
     </>
   );
