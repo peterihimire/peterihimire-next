@@ -227,11 +227,7 @@ h4 {
 navbar-single-link {
   color: red;
 }
-/* Color Navbar */
-.nav-color {
-  /* background-color: var(--mainBlack); */
-  background-color: red;
-}
+
 
 @media (min-width: 993px) {
   .container {

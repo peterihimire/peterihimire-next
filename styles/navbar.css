@@ -6,6 +6,7 @@
   font-family: roboto-bold;
   /* font-family: roboto-condensed-bold; */
 }
+
 .nav-links {
   list-style: none;
 }
@@ -20,6 +21,14 @@ nav.trans-nav {
   z-index: 10;
   height: 84px;
   /* box-shadow: none; */
+}
+/* Color Navbar */
+nav.nav-color {
+  /* background-color: var(--mainBlack); */
+  background-color: red;
+  position: fixed;
+  z-index: 10;
+  height: 84px;
 }
 nav .sidenav-trigger {
   float: left;

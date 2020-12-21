@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
 
   // For Nav Color
   const [navColor, setNavColor] = useState({
-    color: false,
+    isColor: false,
   });
   const colorVisibility = () => {
     let position = window.pageYOffset;
@@ -37,11 +37,11 @@ function MyApp({ Component, pageProps }) {
     if (position > 50) {
       console.log("I am at position above 50px");
       setNavColor({
-        color: true,
+        isColor: true,
       });
     } else {
       setNavColor({
-        color: false,
+        isColor: false,
       });
     }
   };
@@ -52,7 +52,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <MobileNav closeMenu={closeHandler} openState={menuState.isOpen} />
-      <Navbar openMenu={openHandler} navColor={colorVisibility} />
+      <Navbar
+        openMenu={openHandler}
+        navColor={colorVisibility}
+        defNavColor={navColor.isColor}
+      />
       <Component {...pageProps} />
     </>
   );

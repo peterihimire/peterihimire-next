@@ -96,11 +96,16 @@ if (typeof window !== "undefined") {
 // }
 
 const Navbar = (props) => {
+  console.log(props.defNavColor);
+  console.log(props.navColor);
   console.log(props);
   return (
     <>
       <div className="navbar">
-        <nav className="trans-nav" role="navigation">
+        <nav
+          className={props.defNavColor ? "trans-nav nav-color " : "trans-nav"}
+          role="navigation"
+        >
           <div className="container">
             <Link href="/" className="brand-logo left">
               <a>
