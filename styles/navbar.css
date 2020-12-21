@@ -20,12 +20,14 @@ nav.trans-nav {
 }
 
 /* Color Navbar */
+
 nav.nav-color {
   background-color: rgba(14, 13, 13, 0.952);
   position: fixed;
   z-index: 10;
   height: 84px;
 }
+
 /* color Navbar End */
 
 nav .sidenav-trigger {
@@ -42,7 +44,7 @@ nav .sidenav-trigger {
   height: 40px !important;
 }
 
-.menu-icon-img{
+.menu-icon-img {
   z-index: 999 !important;
 }
 
