@@ -31,20 +31,6 @@ function MyApp({ Component, pageProps }) {
   const [navColor, setNavColor] = useState({
     isColor: false,
   });
-  // const colorVisibility = () => {
-  //   let position = window.pageYOffset;
-  //   console.log(position);
-  //   if (position > 50) {
-  //     console.log("I am at position above 50px");
-  //     setNavColor({
-  //       isColor: true,
-  //     });
-  //   } else {
-  //     setNavColor({
-  //       isColor: false,
-  //     });
-  //   }
-  // };
 
   useEffect(() => {
     document.addEventListener("scroll", () => {
@@ -64,18 +50,10 @@ function MyApp({ Component, pageProps }) {
     });
   }, []);
 
-  // useEffect(() => {
-  //   colorVisibility();
-  // }, [pageProps]);
-
   return (
     <>
       <MobileNav closeMenu={closeHandler} openState={menuState.isOpen} />
-      <Navbar
-        openMenu={openHandler}
-        // navColor={colorVisibility}
-        defNavColor={navColor.isColor}
-      />
+      <Navbar openMenu={openHandler} defNavColor={navColor.isColor} />
       <Component {...pageProps} />
     </>
   );
