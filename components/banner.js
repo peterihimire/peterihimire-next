@@ -2,15 +2,17 @@ import React from "react";
 import Link from "next/link";
 // import Typewriter from "typewriter-effect";
 import dynamic from "next/dynamic";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaGithub,
+  FaLinkedinIn,
+} from "react-icons/fa";
 
 const TypeWriterEffect = dynamic(() => import("react-typewriter-effect"), {
   ssr: false,
 });
 
-// if (typeof window !== "undefined") {
-//   TypeWriterEffect = require("react-typewriter-effect");
-//   const myRef = document.querySelector(".scrollable-div");
-// }
 const Banner = () => {
   return (
     <header className="banner">
@@ -127,6 +129,22 @@ const Banner = () => {
                     typeSpeed={150}
                   />
                 </div>
+                <div className="banner-icon-div">
+                  <ul className="banner-icon-list">
+                    <li className="banner-icon-item">
+                      <FaFacebookF />
+                    </li>
+                    <li className="banner-icon-item">
+                      <FaInstagram />
+                    </li>
+                    <li className="banner-icon-item">
+                      <FaLinkedinIn />
+                    </li>
+                    <li className="banner-icon-item">
+                      <FaGithub />
+                    </li>
+                  </ul>
+                </div>
 
                 <div className="btn-banner ">
                   <button className="btn btn-bigger ">
@@ -145,13 +163,6 @@ const Banner = () => {
                   className="full-width banner-img"
                 />
               </div>
-              {/* <div className="btn-banner-xs  visible-xs ">
-                <button className="btn btn-bigger">
-                  <Link href="/portfolio" className=" btn-link-color">
-                    <a>projects</a>
-                  </Link>
-                </button>
-              </div> */}
             </div>
           </div>
         </div>
