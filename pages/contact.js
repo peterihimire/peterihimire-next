@@ -5,7 +5,7 @@ import "materialize-css/dist/css/materialize.min.css";
 
 const Contact = () => {
   return (
-    <div className="">
+    <div className="about">
       <Head>
         <title>Contact | Peter Ihimire</title>
         <link rel="icon" href="/favicon.ico" />
@@ -13,22 +13,31 @@ const Contact = () => {
 
       <main className={styles.main}>
         <div className="container">
-          <div className="">
-            <h2>contact page</h2>
+          <div className="row">
+            <div className="col s12">
+              <div className="col s12 m6 l5">
+                <div className="left-contact">
+                  <h1>
+                    contact <span>me</span>
+                  </h1>
+                  <div className="contact-form-div"> 
+                  <form>
+                    <div className='form-group s12'>
+                      <div className=' s12 m6'>
+                      <input />
+                      <input />
+                      </div>
+                      
+                    </div>
+                  </form>
+                  </div>
+                </div>
+              </div>
+              <div className="col s12 m6 offset-m0 l6 offset-l1"></div>
+            </div>
           </div>
         </div>
       </main>
-
-      {/* <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer> */}
     </div>
   );
 };
