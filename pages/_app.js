@@ -8,6 +8,7 @@ import "../styles/about.css";
 import "../styles/project.css";
 import "../styles/portfolio.css";
 import "../styles/projectList.css";
+import "../styles/contact.css";
 import Navbar from "../components/navbar";
 import MobileNav from "../components/mobilenav";
 

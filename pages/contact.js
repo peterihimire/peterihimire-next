@@ -20,16 +20,38 @@ const Contact = () => {
                   <h1>
                     contact <span>me</span>
                   </h1>
-                  <div className="contact-form-div"> 
-                  <form>
-                    <div className='form-group s12'>
-                      <div className=' s12 m6'>
-                      <input />
-                      <input />
+                  <div className="contact-form-div">
+                    <form>
+                      <div className="name-field col s12">
+                        <div className=" input-field col s12 m6">
+                          <input type="text" id="first_name" />
+                          <label htmlFor="first_name">first name</label>
+                        </div>
+                        <div className=" input-field col s12 m6">
+                          <input type="text" id="last_name" />
+                          <label htmlFor="last_name">last name</label>
+                        </div>
                       </div>
-                      
-                    </div>
-                  </form>
+                      <div className="email-field col s12">
+                        <div className="input-field col s12 m12">
+                          <input type="email" id="email" />
+                          <label htmlFor="email">email</label>
+                        </div>
+                      </div>
+                      <div className="message-field col s12">
+                        <div className="input-field col s12 m12">
+                          <textarea
+                            type="text"
+                            id="message"
+                            className="materialize-textarea"
+                          ></textarea>
+                          <label htmlFor="message">leave a message</label>
+                        </div>
+                      </div>
+                      <div className=" col s12">
+                        <button className="btn btn-bigger">submit</button>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>

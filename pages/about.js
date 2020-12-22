@@ -163,6 +163,27 @@ const About = () => {
                     />
                   </div>
                   <div className="progress-div">
+                    <p>redux : </p>
+                    <ProgressBar
+                      width="300px"
+                      height="10px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                      defColor={{
+                        fair: "cyan",
+                        good: "cyan",
+                        excellent: "cyan",
+                        poor: "cyan",
+                      }}
+                    />
+                  </div>
+                  <div className="progress-div">
                     <p>next.js : </p>
                     <ProgressBar
                       width="300px"
@@ -206,48 +227,6 @@ const About = () => {
                   </div>
                   <div className="progress-div">
                     <p>express.js : </p>
-                    <ProgressBar
-                      width="300px"
-                      height="10px"
-                      rect
-                      fontColor="gray"
-                      percentage="90"
-                      rectPadding="1px"
-                      rectBorderRadius="2px"
-                      trackPathColor="white"
-                      bgColor="red"
-                      trackBorderColor="grey"
-                      defColor={{
-                        fair: "black",
-                        good: "black",
-                        excellent: "black",
-                        poor: "black",
-                      }}
-                    />
-                  </div>
-                  <div className="progress-div">
-                    <p>git : </p>
-                    <ProgressBar
-                      width="300px"
-                      height="10px"
-                      rect
-                      fontColor="gray"
-                      percentage="90"
-                      rectPadding="1px"
-                      rectBorderRadius="2px"
-                      trackPathColor="transparent"
-                      bgColor="red"
-                      trackBorderColor="grey"
-                      defColor={{
-                        fair: "grey",
-                        good: "grey",
-                        excellent: "grey",
-                        poor: "grey",
-                      }}
-                    />
-                  </div>
-                  <div className="progress-div">
-                    <p>linux : </p>
                     <ProgressBar
                       width="300px"
                       height="10px"
@@ -273,7 +252,7 @@ const About = () => {
                     <p>html-5 : </p>
                     <ProgressBar
                       width="480px"
-                      height="10px"
+                      height="15px"
                       rect
                       fontColor="gray"
                       percentage="90"
@@ -294,7 +273,7 @@ const About = () => {
                     <p>css-3 : </p>
                     <ProgressBar
                       width="480px"
-                      height="10px"
+                      height="15px"
                       rect
                       fontColor="gray"
                       percentage="90"
@@ -315,7 +294,7 @@ const About = () => {
                     <p>bootstrap : </p>
                     <ProgressBar
                       width="480px"
-                      height="10px"
+                      height="15px"
                       rect
                       fontColor="gray"
                       percentage="90"
@@ -336,7 +315,7 @@ const About = () => {
                     <p>JavaScript : </p>
                     <ProgressBar
                       width="480px"
-                      height="10px"
+                      height="15px"
                       rect
                       fontColor="gray"
                       percentage="90"
@@ -358,7 +337,7 @@ const About = () => {
                     <p>react.js : </p>
                     <ProgressBar
                       width="480px"
-                      height="10px"
+                      height="15px"
                       rect
                       fontColor="gray"
                       percentage="90"
@@ -376,10 +355,31 @@ const About = () => {
                     />
                   </div>
                   <div className="progress-div">
+                    <p>redux : </p>
+                    <ProgressBar
+                      width="480px"
+                      height="15px"
+                      rect
+                      fontColor="gray"
+                      percentage="90"
+                      rectPadding="1px"
+                      rectBorderRadius="2px"
+                      trackPathColor="transparent"
+                      bgColor="red"
+                      trackBorderColor="grey"
+                      defColor={{
+                        fair: "red",
+                        good: "red",
+                        excellent: "red",
+                        poor: "red",
+                      }}
+                    />
+                  </div>
+                  <div className="progress-div">
                     <p>next.js : </p>
                     <ProgressBar
                       width="480px"
-                      height="10px"
+                      height="15px"
                       rect
                       fontColor="gray"
                       percentage="90"
@@ -400,7 +400,7 @@ const About = () => {
                     <p>node.js : </p>
                     <ProgressBar
                       width="480px"
-                      height="10px"
+                      height="15px"
                       rect
                       fontColor="gray"
                       percentage="90"
@@ -421,49 +421,7 @@ const About = () => {
                     <p>express.js : </p>
                     <ProgressBar
                       width="480px"
-                      height="10px"
-                      rect
-                      fontColor="gray"
-                      percentage="90"
-                      rectPadding="1px"
-                      rectBorderRadius="2px"
-                      trackPathColor="white"
-                      bgColor="red"
-                      trackBorderColor="grey"
-                      defColor={{
-                        fair: "black",
-                        good: "black",
-                        excellent: "black",
-                        poor: "black",
-                      }}
-                    />
-                  </div>
-                  <div className="progress-div">
-                    <p>git : </p>
-                    <ProgressBar
-                      width="480px"
-                      height="10px"
-                      rect
-                      fontColor="gray"
-                      percentage="90"
-                      rectPadding="1px"
-                      rectBorderRadius="2px"
-                      trackPathColor="transparent"
-                      bgColor="red"
-                      trackBorderColor="grey"
-                      defColor={{
-                        fair: "grey",
-                        good: "grey",
-                        excellent: "grey",
-                        poor: "grey",
-                      }}
-                    />
-                  </div>
-                  <div className="progress-div">
-                    <p>linux : </p>
-                    <ProgressBar
-                      width="480px"
-                      height="10px"
+                      height="15px"
                       rect
                       fontColor="gray"
                       percentage="90"

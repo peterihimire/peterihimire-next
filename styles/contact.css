@@ -1,0 +1,10 @@
+.name-field.col, .email-field.col, .message-field.col{
+  padding: 0 0 !important;
+}
+
+.left-contact h1 {
+  text-transform: capitalize;
+}
+.left-contact h1 span {
+  color: var(--pry-color);
+}

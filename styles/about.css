@@ -27,9 +27,7 @@
   line-height: 1.7rem;
   /* font-size: 1.2rem; */
 }
-.react-progress-bar-percent h2 {
-  line-height: 50%;
-}
+
 .progress-div p {
   font-family: roboto-bold;
   font-size: 0.7rem;
@@ -41,6 +39,15 @@
   display: flex;
   align-items: center;
 }
+/* Progress Bar */
+.rect-progress-bar-percent {
+  margin: 1em !important;
+  font-size: 1rem !important;
+}
+.inner-rect-bar {
+  border-radius: 0 !important;
+}
+/* End of Progress Bar */
 @media (max-width: 600px) {
   .circl {
     width: 150px;
