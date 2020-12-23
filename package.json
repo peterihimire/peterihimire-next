@@ -11,6 +11,7 @@
     "@svgr/webpack": "^5.5.0",
     "gsap": "^3.5.1",
     "hamburger-react": "^2.3.0",
+    "isomorphic-unfetch": "^3.1.0",
     "materialize-css": "^1.0.0-rc.2",
     "next": "10.0.3",
     "react": "17.0.1",
