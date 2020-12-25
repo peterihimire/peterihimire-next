@@ -88,7 +88,8 @@ const Banner = () => {
                     textStyle={{
                       fontFamily: "roboto",
                       color: "white",
-                      fontWeight: 200,
+                      fontWeight: 10,
+                      fontSize: "6em",
                     }}
                     startDelay={1000}
                     cursorColor="white"
@@ -102,7 +103,8 @@ const Banner = () => {
                       textStyle={{
                         fontFamily: "roboto-bold",
                         color: "#3187e9",
-                        fontWeight: 500,
+                        fontWeight: 900,
+                        fontSize: "6em",
                       }}
                       startDelay={2500}
                       cursorColor="white"

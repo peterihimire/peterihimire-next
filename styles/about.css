@@ -2,13 +2,14 @@
   padding: 0px;
   margin: 0;
 }
-.circl {
+.circle {
   width: 200px;
   height: 200px;
   background: url(../public/peter.jpg) center/cover no-repeat;
   float: left;
-  shape-outside: none;
-  border-radius: 2px;
+  /* shape-outside: none; */
+  shape-outside: circle();
+  /* border-radius: 2px; */
   margin: 0.7rem 2rem 0.6rem 0;
 }
 .left-about h1 {
@@ -49,13 +50,13 @@
 }
 /* End of Progress Bar */
 @media (max-width: 600px) {
-  .circl {
+  .circle {
     width: 150px;
     height: 150px;
     background: url(../public/peter.jpg) center/cover no-repeat;
     float: left;
-    shape-outside: none;
-    border-radius: 2px;
+    shape-outside: circle();
+    /* border-radius: 2px; */
     margin: 0.7rem 1rem 0rem 0;
   }
   .right-about {

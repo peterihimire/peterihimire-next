@@ -27,7 +27,7 @@ const About = () => {
                     about <span>me</span>
                   </h1>
                   <div className="about-img-text">
-                    <div className="circl"></div>
+                    <div className="circle"></div>
                     <p>
                       To provide a client tailored service that allows for the
                       easy ownership of vehicles to a wider range of people who
@@ -85,7 +85,7 @@ const About = () => {
                       height="10px"
                       rect
                       fontColor="gray"
-                      percentage="90"
+                      percentage="70"
                       rectPadding="1px"
                       rectBorderRadius="2px"
                       trackPathColor="transparent"
@@ -106,7 +106,7 @@ const About = () => {
                       height="10px"
                       rect
                       fontColor="gray"
-                      percentage="90"
+                      percentage="70"
                       rectPadding="1px"
                       rectBorderRadius="2px"
                       trackPathColor="transparent"
@@ -127,7 +127,7 @@ const About = () => {
                       height="10px"
                       rect
                       fontColor="gray"
-                      percentage="90"
+                      percentage="80"
                       rectPadding="1px"
                       rectBorderRadius="2px"
                       trackPathColor="transparent"
@@ -255,7 +255,7 @@ const About = () => {
                       height="15px"
                       rect
                       fontColor="gray"
-                      percentage="90"
+                      percentage="80"
                       rectPadding="1px"
                       rectBorderRadius="2px"
                       trackPathColor="transparent"
@@ -276,7 +276,7 @@ const About = () => {
                       height="15px"
                       rect
                       fontColor="gray"
-                      percentage="90"
+                      percentage="70"
                       rectPadding="1px"
                       rectBorderRadius="2px"
                       trackPathColor="transparent"
@@ -297,7 +297,7 @@ const About = () => {
                       height="15px"
                       rect
                       fontColor="gray"
-                      percentage="90"
+                      percentage="70"
                       rectPadding="1px"
                       rectBorderRadius="2px"
                       trackPathColor="transparent"
@@ -318,7 +318,7 @@ const About = () => {
                       height="15px"
                       rect
                       fontColor="gray"
-                      percentage="90"
+                      percentage="80"
                       rectPadding="1px"
                       rectBorderRadius="2px"
                       trackPathColor="transparent"
@@ -340,7 +340,7 @@ const About = () => {
                       height="15px"
                       rect
                       fontColor="gray"
-                      percentage="90"
+                      percentage="70"
                       rectPadding="1px"
                       rectBorderRadius="2px"
                       trackPathColor="transparent"
@@ -361,7 +361,7 @@ const About = () => {
                       height="15px"
                       rect
                       fontColor="gray"
-                      percentage="90"
+                      percentage="30"
                       rectPadding="1px"
                       rectBorderRadius="2px"
                       trackPathColor="transparent"
@@ -382,17 +382,17 @@ const About = () => {
                       height="15px"
                       rect
                       fontColor="gray"
-                      percentage="90"
+                      percentage="60"
                       rectPadding="1px"
                       rectBorderRadius="2px"
-                      trackPathColor="white"
+                      trackPathColor="transparent"
                       bgColor="red"
                       trackBorderColor="grey"
                       defColor={{
-                        fair: "black",
-                        good: "black",
-                        excellent: "black",
-                        poor: "black",
+                        fair: "pink",
+                        good: "pink",
+                        excellent: "pink",
+                        poor: "pink",
                       }}
                     />
                   </div>
@@ -403,7 +403,7 @@ const About = () => {
                       height="15px"
                       rect
                       fontColor="gray"
-                      percentage="90"
+                      percentage="50"
                       rectPadding="1px"
                       rectBorderRadius="2px"
                       trackPathColor="transparent"
@@ -424,17 +424,17 @@ const About = () => {
                       height="15px"
                       rect
                       fontColor="gray"
-                      percentage="90"
+                      percentage="50"
                       rectPadding="1px"
                       rectBorderRadius="2px"
-                      trackPathColor="white"
+                      trackPathColor="transparent"
                       bgColor="red"
                       trackBorderColor="grey"
                       defColor={{
-                        fair: "black",
-                        good: "black",
-                        excellent: "black",
-                        poor: "black",
+                        fair: "white",
+                        good: "white",
+                        excellent: "white",
+                        poor: "white",
                       }}
                     />
                   </div>
