@@ -12,9 +12,29 @@
   align-items: center;
   justify-content: space-between;
   background-color: rgb(60, 90, 80);
+  padding: 0 2rem;
+  text-transform: uppercase;
+  font-family: "roboto-bold";
+  font-size: 0.8rem;
 }
 .img-container img {
   width: 100%;
   border-radius: 0.2rem;
   transition: var(--mainTransition);
+}
+.img-container:hover .project-hover {
+  transform: translate(-50%, -50%) scale(1);
+}
+.project-hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: scale(0);
+  background-color: rgba(19, 18, 18, 0.87);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
 }
