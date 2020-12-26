@@ -14,7 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(60, 90, 80);
+  background-color: var(--pry-color);
   padding: 0 2rem;
   text-transform: uppercase;
   font-family: "roboto-bold";

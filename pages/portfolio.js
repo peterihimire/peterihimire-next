@@ -82,9 +82,9 @@ const Portfolio = ({ results }) => {
                   ? posts.map((p) => (
                       // console.log(p)
                       <Project
-                        // alt={p.fields.alt}
-                        // date={p.fields.date}
-                        // key={p.fields.title}
+                        github={p.github}
+                        online={p.online}
+                        type={p.type}
                         image={p.image}
                         title={p.title}
                         detail={p.detail}

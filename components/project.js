@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import Link from "next/link";
+import {
+  FaLink
+} from "react-icons/fa";
 
 class Project extends Component {
   render() {
@@ -14,9 +17,9 @@ class Project extends Component {
           <div className="project-footer">
             <p>{this.props.title}</p>
             <div>
-              {/* <Link href={this.props.projectAll.link}>
-                <a>&copy;</a>
-              </Link> */}
+              <Link href={this.props.online}>
+                <FaLink />
+              </Link>
             </div>
           </div>
         </article>
