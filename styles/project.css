@@ -2,6 +2,9 @@
   border: aquamarine solid 2px;
   border-radius: 0.2rem;
 }
+.project:hover .project-hover {
+  transform: translate(-50%, -50%) scale(1);
+}
 .img-container {
   /* padding: 1rem; */
   position: relative;
