@@ -1,4 +1,6 @@
-.name-field.col, .email-field.col, .message-field.col{
+.name-field.col,
+.email-field.col,
+.message-field.col {
   padding: 0 0 !important;
 }
 
@@ -7,4 +9,35 @@
 }
 .left-contact h1 span {
   color: var(--pry-color);
+}
+
+input[type="text"]:not(.browser-default):focus:not([readonly]) {
+  /* color: var(--pry-color); */
+  border-bottom: solid 1px var(--pry-color) !important;
+  box-shadow: 0 1px 0 0 var(--pry-color) !important;
+}
+
+input[type="text"]:not(.browser-default):focus:not([readonly]) + label {
+  color: var(--pry-color);
+}
+
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+  /* background-color: transparent; */
+  background-color: rgba(26, 25, 25, 0.822) !important;
+  border: none;
+  /* border-bottom: 1px solid #9e9e9e; */
+  border-bottom: none !important;
+  border-radius: 0;
+  outline: none;
+  height: 3rem;
+  width: 100%;
+  font-size: 16px;
+  margin: 0 0 8px 0;
+  padding: 0;
+  box-shadow: none;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -moz-transition: box-shadow .3s, border .3s;
+  transition: box-shadow .3s, border .3s;
 }
