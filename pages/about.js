@@ -262,10 +262,10 @@ const About = () => {
                       bgColor="red"
                       trackBorderColor="grey"
                       defColor={{
-                        fair: "orange",
-                        good: "orange",
-                        excellent: "orange",
-                        poor: "orange",
+                        fair: "#3187e9",
+                        good: "#3187e9",
+                        excellent: "#3187e9",
+                        poor: "#3187e9",
                       }}
                     />
                   </div>
@@ -283,10 +283,10 @@ const About = () => {
                       bgColor="red"
                       trackBorderColor="grey"
                       defColor={{
-                        fair: "blue",
-                        good: "blue",
-                        excellent: "blue",
-                        poor: "blue",
+                        fair: "#3187e9",
+                        good: "#3187e9",
+                        excellent: "#3187e9",
+                        poor: "#3187e9",
                       }}
                     />
                   </div>
@@ -304,10 +304,10 @@ const About = () => {
                       bgColor="red"
                       trackBorderColor="grey"
                       defColor={{
-                        fair: "purple",
-                        good: "purple",
-                        excellent: "purple",
-                        poor: "purple",
+                        fair: "#3187e9",
+                        good: "#3187e9",
+                        excellent: "#3187e9",
+                        poor: "#3187e9",
                       }}
                     />
                   </div>
@@ -325,10 +325,10 @@ const About = () => {
                       bgColor="red"
                       trackBorderColor="grey"
                       defColor={{
-                        fair: "yellow",
-                        good: "yellow",
-                        excellent: "yellow",
-                        poor: "yellow",
+                        fair: "#3187e9",
+                        good: "#3187e9",
+                        excellent: "#3187e9",
+                        poor: "#3187e9",
                       }}
                     />
                   </div>
@@ -347,10 +347,10 @@ const About = () => {
                       bgColor="red"
                       trackBorderColor="grey"
                       defColor={{
-                        fair: "cyan",
-                        good: "cyan",
-                        excellent: "cyan",
-                        poor: "cyan",
+                        fair: "#3187e9",
+                        good: "#3187e9",
+                        excellent: "#3187e9",
+                        poor: "#3187e9",
                       }}
                     />
                   </div>
@@ -368,10 +368,10 @@ const About = () => {
                       bgColor="red"
                       trackBorderColor="grey"
                       defColor={{
-                        fair: "red",
-                        good: "red",
-                        excellent: "red",
-                        poor: "red",
+                        fair: "#3187e9",
+                        good: "#3187e9",
+                        excellent: "#3187e9",
+                        poor: "#3187e9",
                       }}
                     />
                   </div>
@@ -389,10 +389,10 @@ const About = () => {
                       bgColor="red"
                       trackBorderColor="grey"
                       defColor={{
-                        fair: "pink",
-                        good: "pink",
-                        excellent: "pink",
-                        poor: "pink",
+                        fair: "#3187e9",
+                        good: "#3187e9",
+                        excellent: "#3187e9",
+                        poor: "#3187e9",
                       }}
                     />
                   </div>
@@ -410,10 +410,10 @@ const About = () => {
                       bgColor="red"
                       trackBorderColor="grey"
                       defColor={{
-                        fair: "limegreen",
-                        good: "limegreen",
-                        excellent: "limegreen",
-                        poor: "limegreen",
+                        fair: "#3187e9",
+                        good: "#3187e9",
+                        excellent: "#3187e9",
+                        poor: "#3187e9",
                       }}
                     />
                   </div>
@@ -431,10 +431,10 @@ const About = () => {
                       bgColor="red"
                       trackBorderColor="grey"
                       defColor={{
-                        fair: "white",
-                        good: "white",
-                        excellent: "white",
-                        poor: "white",
+                        fair: "#3187e9",
+                        good: "#3187e9",
+                        excellent: "#3187e9",
+                        poor: "#3187e9",
                       }}
                     />
                   </div>

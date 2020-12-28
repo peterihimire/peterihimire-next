@@ -10,23 +10,41 @@
 .left-contact h1 span {
   color: var(--pry-color);
 }
-
-input[type="text"]:not(.browser-default):focus:not([readonly]) {
-  /* color: var(--pry-color); */
+.input-field {
+  border-radius: 4rem !important;
+}
+.input-field label {
+  padding-left: .5rem !important;
+}
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="email"]:not(.browser-default):focus:not([readonly]),
+.materialize-textarea:focus:not([readonly]) {
   border-bottom: solid 1px var(--pry-color) !important;
   box-shadow: 0 1px 0 0 var(--pry-color) !important;
 }
 
-input[type="text"]:not(.browser-default):focus:not([readonly]) + label {
-  color: var(--pry-color);
+input[type="text"]:not(.browser-default):focus:not([readonly]) + label,
+input[type="email"]:not(.browser-default):focus:not([readonly]) + label {
+  color: var(--pry-color) !important;
 }
 
-
-input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+input:not([type]),
+input[type="text"]:not(.browser-default),
+input[type="password"]:not(.browser-default),
+input[type="email"]:not(.browser-default),
+input[type="url"]:not(.browser-default),
+input[type="time"]:not(.browser-default),
+input[type="date"]:not(.browser-default),
+input[type="datetime"]:not(.browser-default),
+input[type="datetime-local"]:not(.browser-default),
+input[type="tel"]:not(.browser-default),
+input[type="number"]:not(.browser-default),
+input[type="search"]:not(.browser-default),
+textarea.materialize-textarea {
   /* background-color: transparent; */
   background-color: rgba(26, 25, 25, 0.822) !important;
   border: none;
-  /* border-bottom: 1px solid #9e9e9e; */
+  /* border-bottom: 1px solid var(--pry-color); */
   border-bottom: none !important;
   border-radius: 0;
   outline: none;
@@ -38,6 +56,21 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
   box-shadow: none;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  -moz-transition: box-shadow .3s, border .3s;
-  transition: box-shadow .3s, border .3s;
+  -moz-transition: box-shadow 0.3s, border 0.3s;
+  transition: box-shadow 0.3s, border 0.3s;
+  color: white;
+}
+
+.input-field input[type="text"]:focus + label,
+.materialize-textarea:focus:not([readonly]) + label {
+  color: var(--pry-color) !important;
+}
+.input-field input[type="text"]:focus,
+.materialize-textarea:focus:not([readonly]) {
+  /* border: 1px solid var(--pry-color) !important; */
+  box-shadow: none !important;
+}
+textarea.materialize-textarea {
+  /* border: 1px solid var(--mainGrey) !important; */
+  height: 5rem !important;
 }

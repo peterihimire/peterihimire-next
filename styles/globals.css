@@ -57,6 +57,12 @@ a {
     url("../fonts/roboto/RobotoCondensed-Bold.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "roboto-thin";
+  src: local("roboto"),
+    url("../fonts/roboto/Roboto-Thin.ttf") format("truetype");
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }

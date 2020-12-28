@@ -88,7 +88,7 @@ const Banner = () => {
                     textStyle={{
                       fontFamily: "roboto",
                       color: "white",
-                      fontWeight: 10,
+                      fontWeight: 100,
                       fontSize: "6em",
                     }}
                     startDelay={1000}
