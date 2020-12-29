@@ -8,14 +8,16 @@
 } */
 
 .main {
-  padding: 10rem 0 2rem 0;
+  padding: 11rem 0 2rem 0;
   /* flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; */
 }
-
+.main-two {
+  padding: 5rem 0 0 0;
+}
 /* .footer {
   width: 100%;
   height: 100px;
@@ -120,6 +122,9 @@
     flex-direction: column;
   }
   .main {
+    padding: 5rem 0 0 0;
+  }
+  .main-two {
     padding: 5rem 0 0 0;
   }
 }
