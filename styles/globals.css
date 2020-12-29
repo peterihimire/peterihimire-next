@@ -28,7 +28,7 @@ a {
   --lineHeight: 1.4;
   --mediumFont: 5.5rem;
   --main-shadow: 1px 4px 4px rgba(0, 0, 0, 0.04);
-  --mainTransition: all 0.5s linear;
+  --main-transition: all 0.5s linear;
 }
 
 /* Lato Font */

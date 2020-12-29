@@ -1,6 +1,6 @@
 .project {
-  /* border: var(--mainGrey) solid 2px;
-  border-radius: 0.2rem; */
+  /* border: var(--darkGrey) solid 2px; */
+  /* border-radius: 0.2rem; */
   background-color: var(--mainWhite);
   padding: 0 !important;
   margin: 0 !important;
@@ -28,10 +28,11 @@
   width: 100%;
   height: 100%;
   /* border-radius: 0.2rem; */
-  transition: var(--mainTransition);
+  transition: var(--main-transition);
 }
 .img-container:hover .project-hover {
   transform: translate(-50%, -50%) scale(1);
+  transition: var(--main-transition);
 }
 .project-hover {
   position: absolute;
@@ -45,4 +46,8 @@
   justify-content: center;
   align-items: center;
   padding: 0 2rem;
+  transition: var(--main-transition);
+}
+.fa-link-div .fa-link {
+  font-size: 1.3rem;
 }

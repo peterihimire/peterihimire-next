@@ -26,6 +26,7 @@ nav.nav-color {
   position: fixed;
   z-index: 10;
   height: 84px;
+  transition: all 0.7s linear;
 }
 
 /* color Navbar End */

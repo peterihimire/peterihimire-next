@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import Link from "next/link";
-import {
-  FaLink
-} from "react-icons/fa";
+import { FaLink } from "react-icons/fa";
 
 class Project extends Component {
   render() {
@@ -16,9 +14,9 @@ class Project extends Component {
           </div>
           <div className="project-footer">
             <p>{this.props.title}</p>
-            <div>
+            <div className='fa-link-div'>
               <Link href={this.props.online}>
-                <FaLink />
+                <FaLink className="fa-link" />
               </Link>
             </div>
           </div>
