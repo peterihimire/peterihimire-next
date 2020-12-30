@@ -89,7 +89,8 @@ const Banner = () => {
                       fontFamily: "roboto",
                       color: "white",
                       fontWeight: 100,
-                      fontSize: "6em",
+                      fontSize: "5.5em",
+                      letterSpacing: 4,
                     }}
                     startDelay={1000}
                     cursorColor="white"
@@ -104,7 +105,8 @@ const Banner = () => {
                         fontFamily: "roboto-bold",
                         color: "#3187e9",
                         fontWeight: 900,
-                        fontSize: "6em",
+                        fontSize: "5.5em",
+                        letterSpacing: 4,
                       }}
                       startDelay={2500}
                       cursorColor="white"
@@ -119,10 +121,11 @@ const Banner = () => {
                 <div className="typewriter-subtext hidden-xs">
                   <TypeWriterEffect
                     textStyle={{
-                      fontFamily: "roboto-bold",
+                      fontFamily: "roboto",
                       color: "white",
                       fontWeight: 500,
                       fontSize: "2.3em",
+                      letterSpacing: 3,
                     }}
                     startDelay={5000}
                     cursorColor="white"

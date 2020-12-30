@@ -252,7 +252,7 @@ const About = () => {
                     <p>html-5 : </p>
                     <ProgressBar
                       width="480px"
-                      height="15px"
+                      height="18px"
                       rect
                       fontColor="gray"
                       percentage="80"
@@ -273,7 +273,7 @@ const About = () => {
                     <p>css-3 : </p>
                     <ProgressBar
                       width="480px"
-                      height="15px"
+                      height="18px"
                       rect
                       fontColor="gray"
                       percentage="70"
@@ -294,7 +294,7 @@ const About = () => {
                     <p>bootstrap : </p>
                     <ProgressBar
                       width="480px"
-                      height="15px"
+                      height="18px"
                       rect
                       fontColor="gray"
                       percentage="70"
@@ -315,7 +315,7 @@ const About = () => {
                     <p>JavaScript : </p>
                     <ProgressBar
                       width="480px"
-                      height="15px"
+                      height="18px"
                       rect
                       fontColor="gray"
                       percentage="80"
@@ -337,7 +337,7 @@ const About = () => {
                     <p>react.js : </p>
                     <ProgressBar
                       width="480px"
-                      height="15px"
+                      height="18px"
                       rect
                       fontColor="gray"
                       percentage="70"
@@ -358,7 +358,7 @@ const About = () => {
                     <p>redux : </p>
                     <ProgressBar
                       width="480px"
-                      height="15px"
+                      height="18px"
                       rect
                       fontColor="gray"
                       percentage="30"
@@ -379,7 +379,7 @@ const About = () => {
                     <p>next.js : </p>
                     <ProgressBar
                       width="480px"
-                      height="15px"
+                      height="18px"
                       rect
                       fontColor="gray"
                       percentage="60"
@@ -400,7 +400,7 @@ const About = () => {
                     <p>node.js : </p>
                     <ProgressBar
                       width="480px"
-                      height="15px"
+                      height="18px"
                       rect
                       fontColor="gray"
                       percentage="50"
@@ -421,7 +421,7 @@ const About = () => {
                     <p>express.js : </p>
                     <ProgressBar
                       width="480px"
-                      height="15px"
+                      height="18px"
                       rect
                       fontColor="gray"
                       percentage="50"
