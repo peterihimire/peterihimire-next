@@ -40,7 +40,7 @@ const Banner = () => {
                         fontFamily: "roboto",
                         color: "white",
                         fontWeight: 200,
-                        fontSize: "3.2em",
+                        fontSize: "3.5em",
                       }}
                       startDelay={1000}
                       cursorColor="white"
@@ -55,7 +55,7 @@ const Banner = () => {
                           fontFamily: "roboto-bold",
                           color: "#3187e9",
                           fontWeight: 500,
-                          fontSize: "3.2em",
+                          fontSize: "3.5em",
                         }}
                         startDelay={2500}
                         cursorColor="white"
@@ -74,7 +74,7 @@ const Banner = () => {
                       fontFamily: "roboto-bold",
                       color: "white",
                       fontWeight: 500,
-                      fontSize: "1.9em",
+                      fontSize: "1.5em",
                     }}
                     startDelay={5000}
                     cursorColor="white"
@@ -89,7 +89,7 @@ const Banner = () => {
                       fontFamily: "roboto",
                       color: "white",
                       fontWeight: 100,
-                      fontSize: "5.5em",
+                      // fontSize: "5.5em",
                       letterSpacing: 4,
                     }}
                     startDelay={1000}
@@ -105,7 +105,7 @@ const Banner = () => {
                         fontFamily: "roboto-bold",
                         color: "#3187e9",
                         fontWeight: 900,
-                        fontSize: "5.5em",
+                        // fontSize: "5.5em",
                         letterSpacing: 4,
                       }}
                       startDelay={2500}
@@ -113,6 +113,7 @@ const Banner = () => {
                       text=" Ihimire"
                       typeSpeed={200}
                       hideCursorAfterText={true}
+                      className="type-ihimire"
                       // scrollArea={myAppRef}
                     />
                   </span>
@@ -124,7 +125,7 @@ const Banner = () => {
                       fontFamily: "roboto",
                       color: "white",
                       fontWeight: 500,
-                      fontSize: "2.3em",
+                      fontSize: "1.8em",
                       letterSpacing: 3,
                     }}
                     startDelay={5000}
