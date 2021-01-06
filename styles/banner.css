@@ -3,6 +3,7 @@
   /* height: 100vh; */
   /* min-height: 600px; */
   padding-top: 0;
+  visibility: hidden;
 }
 .banner-item {
   /* padding-top: 15% !important; */

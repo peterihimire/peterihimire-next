@@ -12,10 +12,30 @@ import {
 const TypeWriterEffect = dynamic(() => import("react-typewriter-effect"), {
   ssr: false,
 });
+import { TweenMax, TimelineLite, Power3 } from "gsap";
 
 const Banner = () => {
+  let banner = React.useRef(null);
+  let bannerSocial = React.useRef(null);
+  let bannerBtn = React.useRef(null);
+  let bannerImg = React.useRef(null);
+
+  let tl = new TimelineLite();
+
+  React.useEffect(() => {
+    // IMAGE VARIABLE
+    const devImg = bannerImg.firstElementChild;
+
+    TweenMax.to(banner, 0, { css: { visibility: "visible" } });
+    console.log(banner);
+    console.log(bannerImg);
+    console.log(devImg);
+
+    tl.from(bannerImg, 1.2, { y: 1200, ease: Power3.easeOut });
+  });
+
   return (
-    <header className="banner">
+    <header className="banner" ref={(el) => (banner = el)}>
       <div className="row full-height">
         <div className="container full-height">
           <div className=" col s12 pad0">
@@ -162,12 +182,17 @@ const Banner = () => {
               </div>
             </div>
             <div className="col s12 m12 l5 offset-l0 hidden-xs hidden-md ">
-              <div className="rel righ-align main-img-container">
-                <img
-                  src="/undraw-code-3.svg"
-                  alt="programmer"
-                  className="full-width banner-img"
-                />
+              <div
+                className="rel righ-align main-img-container"
+                ref={(el) => (bannerImg = el)}
+              >
+                <div className="banner-img">
+                  <img
+                    src="/undraw-code-3.svg"
+                    alt="programmer"
+                    className="full-width banner-img"
+                  />
+                </div>
               </div>
             </div>
           </div>
