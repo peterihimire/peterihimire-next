@@ -22,7 +22,7 @@ a {
   --mainGrey: #f9f9f9;
   --darkGrey: #494949;
   --mainWhite: #fff;
-  --mainBlack: rgb(0, 0, 0);
+  --mainBlack: rgb(8, 8, 8);
   /* --mainBlack: #222; */
   --mainSpacing: 0.2rem;
   --lineHeight: 1.4;

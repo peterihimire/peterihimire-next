@@ -19,7 +19,7 @@ const Banner = () => {
       <div className="row full-height">
         <div className="container full-height">
           <div className=" col s12 pad0">
-            <div className="col s12 m6">
+            <div className="col s12 m12 l7">
               <div className="main-text-container">
                 {/* <TypeWrite /> */}
                 {/* <Typewriter
@@ -161,7 +161,7 @@ const Banner = () => {
                 </div>
               </div>
             </div>
-            <div className="col s12 m5 offset-m1 hidden-xs">
+            <div className="col s12 m12 l5 offset-l0 hidden-xs hidden-md ">
               <div className="rel righ-align main-img-container">
                 <img
                   src="/undraw-code-3.svg"
