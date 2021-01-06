@@ -31,7 +31,12 @@ const Banner = () => {
     console.log(bannerImg);
     console.log(devImg);
 
-    tl.from(bannerImg, 1.2, { y: 1200, ease: Power3.easeOut });
+    tl.from(bannerImg, 4.2, { x: 1200, ease: Power3.easeOut }, 7.5).from(
+      bannerImg.firstElementChild,
+      3.9,
+      { scale: 1.2, ease: Power3.easeOut },
+      9.9
+    );
   });
 
   return (
