@@ -10,12 +10,15 @@
 .nav-links {
   list-style: none;
 }
-
+.navbar{
+  visibility: hidden;
+}
 nav.trans-nav {
   position: fixed;
   background-color: transparent;
   z-index: 10;
   height: 84px;
+
   /* box-shadow: none; */
 }
 

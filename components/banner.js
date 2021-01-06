@@ -21,6 +21,7 @@ const Banner = () => {
   let bannerImg = React.useRef(null);
 
   let tl = new TimelineLite();
+  // let tl2 = new TimelineLite();
 
   React.useEffect(() => {
     // IMAGE VARIABLE
@@ -37,6 +38,9 @@ const Banner = () => {
       { scale: 1.2, ease: Power3.easeOut },
       9.9
     );
+
+    tl.from(bannerSocial, 2.3, { x: -500, ease: Power3.easeOut }, 9.2);
+    tl.from(bannerBtn, 2.3, { x: -500, ease: Power3.easeOut }, 12.2);
   });
 
   return (
@@ -161,7 +165,10 @@ const Banner = () => {
                   />
                 </div>
                 <div className="banner-icon-div">
-                  <ul className="banner-icon-list">
+                  <ul
+                    className="banner-icon-list"
+                    ref={(el) => (bannerSocial = el)}
+                  >
                     <li className="banner-icon-item">
                       <FaFacebookF />
                     </li>
@@ -177,7 +184,7 @@ const Banner = () => {
                   </ul>
                 </div>
 
-                <div className="btn-banner ">
+                <div className="btn-banner " ref={(el) => (bannerBtn = el)}>
                   <button className="btn btn-bigger ">
                     <Link href="/portfolio" className=" btn-link-color">
                       <a>projects</a>

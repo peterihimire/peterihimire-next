@@ -1,5 +1,6 @@
-import React, { Component } from "react";
+import React, { useEffect, useRef } from "react";
 import Link from "next/link";
+import { TweenMax, TimelineLite, Power3 } from "gsap";
 // import { Spin as Hamburger } from "hamburger-react";
 // import M from "materialize-css/dist/js/materialize.min.js";
 
@@ -99,9 +100,16 @@ const Navbar = (props) => {
   console.log(props.defNavColor);
   console.log(props.navColor);
   console.log(props);
+
+  let navbarAnime = useRef(null);
+
+  useEffect(() => {
+    TweenMax.to(navbarAnime, 0, { css: { visibility: "visible" } });
+  });
+
   return (
     <>
-      <div className="navbar">
+      <div className="navbar" ref={(el) => (navbarAnime = el)}>
         <nav
           className={props.defNavColor ? "trans-nav nav-color " : "trans-nav"}
           role="navigation"
