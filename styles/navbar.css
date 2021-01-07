@@ -25,7 +25,14 @@ nav.trans-nav {
 /* Color Navbar */
 
 nav.nav-color {
-  background-color: rgba(14, 13, 13, 0.952);
+  /* background-color: rgba(14, 13, 13, 0.952); */
+  /* background-color: rgba(43, 41, 41, 0.589); */
+  /* background-color: rgba(87, 86, 86, 0.158) !important; */
+  background: linear-gradient(
+    to right,
+    rgb(0, 40, 63),
+    rgba(29, 28, 28, 0.904)
+  );
   position: fixed;
   z-index: 10;
   height: 84px;

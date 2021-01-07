@@ -6,6 +6,7 @@
 
 .left-contact h1 {
   text-transform: capitalize;
+  color: var(--mainGrey);
 }
 .left-contact h1 span {
   color: var(--pry-color);
@@ -42,7 +43,8 @@ input[type="number"]:not(.browser-default),
 input[type="search"]:not(.browser-default),
 textarea.materialize-textarea {
   /* background-color: transparent; */
-  background-color: rgba(26, 25, 25, 0.822) !important;
+  /* background-color: rgba(26, 25, 25, 0.822) !important; */
+  background-color: rgba(87, 86, 86, 0.158) !important;
   border: none;
   /* border-bottom: 1px solid var(--pry-color); */
   border-bottom: none !important;

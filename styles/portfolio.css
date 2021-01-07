@@ -1,5 +1,6 @@
 .portfolio-content h1 {
   text-transform: capitalize;
+  color: var(--mainGrey);
 }
 
 .portfolio-content span {

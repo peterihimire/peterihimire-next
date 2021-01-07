@@ -67,12 +67,12 @@ const Banner = () => {
                     <TypeWriterEffect
                       textStyle={{
                         fontFamily: "roboto",
-                        color: "white",
+                        color: "grey",
                         fontWeight: 200,
                         fontSize: "3.5em",
                       }}
                       startDelay={1000}
-                      cursorColor="white"
+                      cursorColor="grey"
                       text="Peter  "
                       typeSpeed={200}
                       hideCursorAfterText={true}
@@ -87,7 +87,7 @@ const Banner = () => {
                           fontSize: "3.5em",
                         }}
                         startDelay={2500}
-                        cursorColor="white"
+                        cursorColor="grey"
                         text=" Ihimire"
                         typeSpeed={200}
                         hideCursorAfterText={true}
@@ -101,12 +101,12 @@ const Banner = () => {
                   <TypeWriterEffect
                     textStyle={{
                       fontFamily: "roboto-bold",
-                      color: "white",
+                      color: "grey",
                       fontWeight: 500,
                       fontSize: "1.5em",
                     }}
                     startDelay={5000}
-                    cursorColor="white"
+                    cursorColor="grey"
                     multiText={["Front-End Web Developer"]}
                     multiTextDelay={1000}
                     typeSpeed={150}
@@ -116,13 +116,13 @@ const Banner = () => {
                   <TypeWriterEffect
                     textStyle={{
                       fontFamily: "roboto",
-                      color: "white",
+                      color: "grey",
                       fontWeight: 100,
                       // fontSize: "5.5em",
                       letterSpacing: 4,
                     }}
                     startDelay={1000}
-                    cursorColor="white"
+                    cursorColor="grey"
                     text="Peter  "
                     typeSpeed={200}
                     hideCursorAfterText={true}
@@ -138,7 +138,7 @@ const Banner = () => {
                         letterSpacing: 4,
                       }}
                       startDelay={2500}
-                      cursorColor="white"
+                      cursorColor="grey"
                       text=" Ihimire"
                       typeSpeed={200}
                       hideCursorAfterText={true}
@@ -152,13 +152,13 @@ const Banner = () => {
                   <TypeWriterEffect
                     textStyle={{
                       fontFamily: "roboto",
-                      color: "white",
+                      color: "grey",
                       fontWeight: 500,
                       fontSize: "1.8em",
                       letterSpacing: 3,
                     }}
                     startDelay={5000}
-                    cursorColor="white"
+                    cursorColor="grey"
                     multiText={["Front-End Web Developer"]}
                     multiTextDelay={1000}
                     typeSpeed={150}

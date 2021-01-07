@@ -18,6 +18,7 @@
 .banner-icon-item {
   padding: 0 1.5rem 0 0;
   font-size: 1.5rem;
+  color: var(--mainGrey);
 }
 .main-text-container {
   position: relative;
@@ -46,6 +47,7 @@
 @media (min-width: 993px) {
   .main-text-container h1 {
     font-size: 6rem;
+    color: var(--mainGrey);
   }
 }
 @media (max-width: 992px) {
@@ -55,6 +57,7 @@
   }
   .main-text-container h1 {
     font-size: 5.5rem;
+    color: var(--mainGrey);
   }
   .main-img-container {
     position: relative;
@@ -79,6 +82,7 @@
   .main-text-container h1 {
     font-size: 4rem;
     letter-spacing: 0.1rem;
+    color: var(--mainGrey);
   }
   .main-img-container {
     position: relative;

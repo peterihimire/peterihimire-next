@@ -249,7 +249,7 @@ const About = () => {
                 </div>
                 <div className="right-about hidden-xs">
                   <div className="progress-div">
-                    <p>html-5 : </p>
+                    <p>html-5</p>
                     <ProgressBar
                       width="480px"
                       height="18px"
@@ -270,7 +270,7 @@ const About = () => {
                     />
                   </div>
                   <div className="progress-div">
-                    <p>css-3 : </p>
+                    <p>css-3</p>
                     <ProgressBar
                       width="480px"
                       height="18px"
@@ -291,7 +291,7 @@ const About = () => {
                     />
                   </div>
                   <div className="progress-div">
-                    <p>bootstrap : </p>
+                    <p>bootstrap</p>
                     <ProgressBar
                       width="480px"
                       height="18px"
@@ -312,7 +312,7 @@ const About = () => {
                     />
                   </div>
                   <div className="progress-div">
-                    <p>JavaScript : </p>
+                    <p>JavaScript</p>
                     <ProgressBar
                       width="480px"
                       height="18px"
@@ -334,7 +334,7 @@ const About = () => {
                   </div>
 
                   <div className="progress-div">
-                    <p>react.js : </p>
+                    <p>react.js</p>
                     <ProgressBar
                       width="480px"
                       height="18px"
@@ -355,13 +355,13 @@ const About = () => {
                     />
                   </div>
                   <div className="progress-div">
-                    <p>redux : </p>
+                    <p>redux</p>
                     <ProgressBar
                       width="480px"
                       height="18px"
                       rect
                       fontColor="gray"
-                      percentage="30"
+                      percentage="45"
                       rectPadding="1px"
                       rectBorderRadius="2px"
                       trackPathColor="transparent"
@@ -376,7 +376,7 @@ const About = () => {
                     />
                   </div>
                   <div className="progress-div">
-                    <p>next.js : </p>
+                    <p>next.js</p>
                     <ProgressBar
                       width="480px"
                       height="18px"
@@ -397,7 +397,7 @@ const About = () => {
                     />
                   </div>
                   <div className="progress-div">
-                    <p>node.js : </p>
+                    <p>node.js</p>
                     <ProgressBar
                       width="480px"
                       height="18px"
@@ -418,7 +418,7 @@ const About = () => {
                     />
                   </div>
                   <div className="progress-div">
-                    <p>express.js : </p>
+                    <p>express.js</p>
                     <ProgressBar
                       width="480px"
                       height="18px"

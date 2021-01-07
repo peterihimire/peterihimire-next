@@ -14,6 +14,7 @@
 }
 .left-about h1 {
   text-transform: capitalize;
+  color: var(--mainGrey);
 }
 .left-about h1 span {
   color: var(--pry-color);
@@ -34,6 +35,7 @@
   font-size: 0.7rem;
   padding: 0 1rem 0 0;
   width: 85px;
+  color: var(--mainGrey);
   text-transform: uppercase;
 }
 .progress-div {
