@@ -102,10 +102,14 @@ const Navbar = (props) => {
   console.log(props);
 
   let navbarAnime = useRef(null);
+  let navLine = useRef(null);
+  let tl = new TimelineLite();
 
   useEffect(() => {
+    const navLine = navbarAnime.firstElementChild;
     TweenMax.to(navbarAnime, 0, { css: { visibility: "visible" } });
-  });
+    tl.from(navLine, 2.3, { y: -500, ease: Power3.easeOut }, 14.2);
+  },[]);
 
   return (
     <>
@@ -113,6 +117,7 @@ const Navbar = (props) => {
         <nav
           className={props.defNavColor ? "trans-nav nav-color " : "trans-nav"}
           role="navigation"
+          ref={(el) => (navLine = el)}
         >
           <div className="container">
             <Link href="/" className="brand-logo left">
