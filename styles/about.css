@@ -50,6 +50,12 @@
 .inner-rect-bar {
   border-radius: 0 !important;
 }
+.resume {
+  text-decoration: none;
+  font-weight: bolder;
+  color: var(--pry-color);
+  padding-left: 0.4rem;
+}
 /* End of Progress Bar */
 @media (max-width: 600px) {
   .circle {

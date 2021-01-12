@@ -3,6 +3,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import "materialize-css/dist/css/materialize.min.css";
 import dynamic from "next/dynamic";
+import Link from "next/link";
 
 const ProgressBar = dynamic(() => import("react-animated-progress-bar"), {
   ssr: false,
@@ -29,22 +30,30 @@ const About = () => {
                   <div className="about-img-text">
                     <div className="circle"></div>
                     <p>
-                      To provide a client tailored service that allows for the
-                      easy ownership of vehicles to a wider range of people who
-                      might have had a harder time getting these type of payment
-                      facility using traditional financial channels. To provide
-                      a client tailored service that allows for the easy
-                      ownership of vehicles to a wider range of people who might
-                      have had a harder time getting these type of payment
-                      facility using traditional financial channels. To provide
-                      a client tailored service that allows for the easy
-                      ownership of vehicles to a wider range of people who might
-                      have had a harder time getting these type of payment
-                      facility using traditional financial channels. To provide
-                      a client tailored service that allows for the easy
-                      ownership of vehicles to a wider range of people who might
-                      have had a harder time getting these type of payment
-                      facility using traditional financial channels.#3187e9
+                      Based in Nigeria, I am a seasoned front-end web developer,
+                      passionate about building excellent softwares that make a
+                      difference. I specialize in creating unique,
+                      market-centric websites and applications that put my
+                      clients above their competitors, ranging from individuals
+                      and small businesses all the way to large enterprice
+                      corporations. I approach every project with an attention
+                      to detail and determination to exceed my clients
+                      expectations. My process is very collaborative. I like to
+                      involve my clients closely in every stage of the project,
+                      listening and fully understanding their requirements so as
+                      to deliver an online solution that meets their business
+                      goals. When am not programming, you'll find me in my home
+                      studio cooking up some youtube tech videos, where I share
+                      my thoughts about mobile technologies. Click to download
+                      my
+                      <Link
+                        href="https://drive.google.com/file/d/192ritcuRCLA7GOuRuGPPLdETuGzGmO5b/view?usp=drivesdk"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <a className="resume">resume</a>
+                      </Link>
+                      , for more information.
                     </p>
                   </div>
                 </div>
