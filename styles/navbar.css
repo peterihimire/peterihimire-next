@@ -1,3 +1,7 @@
+nav{
+  box-shadow: none !important;
+}
+
 .nav-item a {
   text-transform: capitalize;
   text-decoration: none;

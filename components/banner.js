@@ -41,7 +41,7 @@ const Banner = () => {
 
     tl.from(bannerSocial, 2.3, { x: -500, ease: Power3.easeOut }, 9.2);
     tl.from(bannerBtn, 2.3, { x: -500, ease: Power3.easeOut }, 12.2);
-  });
+  }, []);
 
   return (
     <header className="banner" ref={(el) => (banner = el)}>

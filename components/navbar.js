@@ -98,7 +98,6 @@ if (typeof window !== "undefined") {
 
 const Navbar = (props) => {
   console.log(props.defNavColor);
-  console.log(props.navColor);
   console.log(props);
 
   let navbarAnime = useRef(null);
@@ -109,7 +108,7 @@ const Navbar = (props) => {
     const navLine = navbarAnime.firstElementChild;
     TweenMax.to(navbarAnime, 0, { css: { visibility: "visible" } });
     tl.from(navLine, 2.3, { y: -500, ease: Power3.easeOut }, 14.2);
-  },[]);
+  }, []);
 
   return (
     <>
