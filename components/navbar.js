@@ -107,7 +107,7 @@ const Navbar = (props) => {
   useEffect(() => {
     const navLine = navbarAnime.firstElementChild;
     TweenMax.to(navbarAnime, 0, { css: { visibility: "visible" } });
-    tl.from(navLine, 2.3, { y: -500, ease: Power3.easeOut }, 14.2);
+    tl.from(navLine, 2.2, { y: -500, ease: Power3.easeOut }, 0.2);
   }, []);
 
   return (
