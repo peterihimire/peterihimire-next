@@ -14,10 +14,14 @@ class Project extends Component {
           </div>
           <div className="project-footer">
             <p>{this.props.title}</p>
-            <div className='fa-link-div'>
-              <Link href={this.props.online}>
+            <div className="fa-link-div">
+              <a
+                href={this.props.online}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaLink className="fa-link" />
-              </Link>
+              </a>
             </div>
           </div>
         </article>

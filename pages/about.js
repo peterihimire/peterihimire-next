@@ -46,13 +46,14 @@ const About = () => {
                       studio cooking up some youtube tech videos, where I share
                       my thoughts about mobile technologies. Click to download
                       my
-                      <Link
+                      <a
+                        className="resume"
                         href="https://drive.google.com/file/d/192ritcuRCLA7GOuRuGPPLdETuGzGmO5b/view?usp=drivesdk"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <a className="resume">resume</a>
-                      </Link>
+                        resume
+                      </a>
                       , for more information.
                     </p>
                   </div>
