@@ -19,6 +19,7 @@ class Project extends Component {
                 href={this.props.online}
                 target="_blank"
                 rel="noopener noreferrer"
+                className="project-link"
               >
                 <FaLink className="fa-link" />
               </a>

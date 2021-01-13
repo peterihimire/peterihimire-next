@@ -51,3 +51,7 @@
 .fa-link-div .fa-link {
   font-size: 1.3rem;
 }
+.project-link {
+  color: var(--mainWhite);
+  
+}
