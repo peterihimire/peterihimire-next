@@ -14,7 +14,7 @@ const Mobilenav = (props) => {
       />
       <div className={props.openState ? "mobile-nav show-nav" : "mobile-nav"}>
         <div className="mobile-nav-close" onClick={props.closeMenu}>
-          <img src="/x.svg" alt="close" />
+          <img src="/x-alt.svg" alt="close" />
         </div>
         <div className="mobile-nav-logo">
           <img
