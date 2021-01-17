@@ -19,11 +19,7 @@
 .mobile-nav {
   position: fixed;
   /* background:  var(--mainBlack); */
-  background: linear-gradient(
-    to right,
-    rgb(0, 40, 63),
-    rgb(29, 28, 28)
-  );
+  background: linear-gradient(to right, rgb(0, 40, 63), rgb(29, 28, 28));
   width: 50%;
   height: calc(100% + 60px);
   top: 0px;
@@ -41,6 +37,16 @@
   height: 90px;
   padding: 2rem 0 0 2rem;
   margin: 0 0 2rem 0;
+}
+.mobile-nav-logo {
+  padding: 2rem 2rem 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mobile-nav-logo p {
+  font-size: 3rem;
+  color: var(--mainWhite);
 }
 .show-nav {
   transition: all 0.3s linear;

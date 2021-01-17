@@ -19,6 +19,10 @@ const Mobilenav = (props) => {
             alt="mobile-nav logo"
             className=""
           />
+          <div className="sidenav-close">
+            <p>x</p>
+            {/* <img src={CloseIcon} alt="close" /> */}
+          </div>
         </div>
         <ul className="">
           <li className="mobile-nav-item">
