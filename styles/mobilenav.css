@@ -38,11 +38,13 @@
   padding: 2rem 0 0 2rem;
   margin: 0 0 2rem 0;
 }
-.mobile-nav-logo {
-  padding: 2rem 2rem 2rem 0;
+.mobile-nav-close {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
+  padding: 0.5rem 2rem 2rem 2rem;
+}
+.mobile-nav-close img {
+  width: 35px;
 }
 .mobile-nav-logo p {
   font-size: 3rem;

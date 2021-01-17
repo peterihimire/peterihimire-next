@@ -13,16 +13,15 @@ const Mobilenav = (props) => {
         onClick={props.closeMenu}
       />
       <div className={props.openState ? "mobile-nav show-nav" : "mobile-nav"}>
+        <div className="mobile-nav-close" onClick={props.closeMenu}>
+          <img src="/x.svg" alt="close" />
+        </div>
         <div className="mobile-nav-logo">
           <img
             src="/peterihimire-logo-alt.svg"
             alt="mobile-nav logo"
             className=""
           />
-          <div className="sidenav-close">
-            <p>x</p>
-            {/* <img src={CloseIcon} alt="close" /> */}
-          </div>
         </div>
         <ul className="">
           <li className="mobile-nav-item">
