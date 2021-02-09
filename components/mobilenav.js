@@ -24,22 +24,22 @@ const Mobilenav = (props) => {
           />
         </div>
         <ul className="">
-          <li className="mobile-nav-item">
+          <li className="mobile-nav-item" onClick={props.closeMenu}>
             <Link href="/">
               <a>home</a>
             </Link>
           </li>
-          <li className="mobile-nav-item">
+          <li className="mobile-nav-item" onClick={props.closeMenu}>
             <Link href="/about">
               <a>about</a>
             </Link>
           </li>
-          <li className="mobile-nav-item">
+          <li className="mobile-nav-item" onClick={props.closeMenu}>
             <Link href="/portfolio">
               <a>portfolio</a>
             </Link>
           </li>
-          <li className="mobile-nav-item">
+          <li className="mobile-nav-item" onClick={props.closeMenu}>
             <Link href="/contact">
               <a>contact</a>
             </Link>
