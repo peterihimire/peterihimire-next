@@ -9,7 +9,7 @@ const PlainMap = () => {
     // width: "40vw",
     width: "100vw",
     // height: "70vh",
-    height: '70vh',
+    height: '50vh',
     latitude: 6.497892,
     longitude: 3.382923,
     zoom: 13,

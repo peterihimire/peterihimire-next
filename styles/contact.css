@@ -82,4 +82,5 @@ textarea.materialize-textarea {
   border-radius: 5px !important;
   overflow-y: hidden;
   overflow-x: hidden;
+  margin-top: 1rem;
 }

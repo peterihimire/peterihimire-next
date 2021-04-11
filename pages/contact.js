@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="container">
           <div className="row">
             <div className="col s12">
-              <div className="col s12 m6 l5">
+              <div className="col s12 m12 l5">
                 <div className="left-contact">
                   <h1>
                     contact <span>me</span>
@@ -56,7 +56,7 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              <div className="col s12 m6 offset-m0 l6 offset-l1">
+              <div className="col s12 m12 offset-m0 l6 offset-l1">
                 <div className="plain-map-div">
                   <PlainMap />
                 </div>
