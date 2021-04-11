@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import "materialize-css/dist/css/materialize.min.css";
+import PlainMap from "../components/PlainMap";
 
 const Contact = () => {
   return (
@@ -55,7 +56,9 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              <div className="col s12 m6 offset-m0 l6 offset-l1"></div>
+              <div className="col s12 m6 offset-m0 l6 offset-l1">
+                <PlainMap />
+              </div>
             </div>
           </div>
         </div>
