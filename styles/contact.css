@@ -15,7 +15,7 @@
   border-radius: 4rem !important;
 }
 .input-field label {
-  padding-left: .5rem !important;
+  padding-left: 0.5rem !important;
 }
 input[type="text"]:not(.browser-default):focus:not([readonly]),
 input[type="email"]:not(.browser-default):focus:not([readonly]),
@@ -75,4 +75,11 @@ textarea.materialize-textarea {
 textarea.materialize-textarea {
   /* border: 1px solid var(--mainGrey) !important; */
   height: 5rem !important;
+}
+.plain-map-div {
+  width: 100% !important;
+  height: 50% !important;
+  border-radius: 5px !important;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }

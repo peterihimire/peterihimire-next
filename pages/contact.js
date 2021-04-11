@@ -57,7 +57,9 @@ const Contact = () => {
                 </div>
               </div>
               <div className="col s12 m6 offset-m0 l6 offset-l1">
-                <PlainMap />
+                <div className="plain-map-div">
+                  <PlainMap />
+                </div>
               </div>
             </div>
           </div>

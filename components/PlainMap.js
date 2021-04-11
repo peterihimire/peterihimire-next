@@ -6,9 +6,13 @@ const REACT_MAPBOX_TOKEN =
 
 const PlainMap = () => {
   const [viewport, setViewport] = useState({
+    // width: "40vw",
     width: "100vw",
-    height: "100vh",
-    zoom: 15,
+    // height: "70vh",
+    height: '70vh',
+    latitude: 6.497892,
+    longitude: 3.382923,
+    zoom: 13,
   });
   return (
     <div>
@@ -17,6 +21,7 @@ const PlainMap = () => {
         {...viewport}
         mapboxApiAccessToken={REACT_MAPBOX_TOKEN}
         onViewportChange={(viewport) => setViewport(viewport)}
+        mapStyle="mapbox://styles/mapbox/streets-v11"
       ></ReactMapboxGl>
     </div>
   );
